@@ -23,10 +23,13 @@ for s in page.find_all("script"):
             title = rawtitle.split(r'false\">')[1].split(r'<\/a>')[0]
             title = html.unescape(title)
             author = text.split(r"origin=recs_landing\">")[1].split(r'<\/a>')[0]
+            
+            
             if bookid in exists :
                 pass
             else:
                 row = [title , author , link]
+                exists.add(bookid)
                 data.append(row)
             
             
