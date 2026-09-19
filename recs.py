@@ -20,5 +20,5 @@ cookies = http.cookiejar.MozillaCookieJar("cookies.txt")
 cookies.load(ignore_discard=True,ignore_expires=True)
 response = requests.get("https://goodreads.com/recommendations" , headers=headers , cookies=cookies)
 print(response)
-with open("page.html", "w") as t:
+with open("recs.html", "w") as t:
     t.write(response.text)

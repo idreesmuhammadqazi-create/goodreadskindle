@@ -1,9 +1,12 @@
 from bs4 import BeautifulSoup
 import html
+import bookpagefetcher as b
+
+
 data = []
 exists = set()
 
-with open("page.html") as e:
+with open("recs.html") as e:
     page = BeautifulSoup(e.read(), "html.parser")
 
 recswithads = page.find(class_="recsListing")
@@ -33,5 +36,6 @@ for s in page.find_all("script"):
                 data.append(row)
             
             
-
-print(data)
+link = data[0][2]
+print(link)
+b.fetchpage(link)
