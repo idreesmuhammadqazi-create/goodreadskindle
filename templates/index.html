@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GoodReads Kindle Ed</title>
+    </head>
+    <body>
+        <H1>Recommendations</H1>
+        {% for b in data %}
+            <h3>{{ b[0] }}</h3><p>by {{ b[1] }}</p>
+
+            <p>{{b[2]}}</p>
+
+
+        {% endfor %}
+    </body>
+</html>
