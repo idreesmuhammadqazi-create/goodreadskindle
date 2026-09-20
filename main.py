@@ -1,6 +1,9 @@
 from bs4 import BeautifulSoup
 import html
+import dotenv
 import re
+import os
+import base64
 import requests
 from flask import Flask, render_template
 import http.cookiejar
@@ -8,8 +11,14 @@ import http.cookiejar
 exists = set()
 data = []
 app = Flask(__name__)
+dotenv.load_dotenv()
+
 
 def dataparser():
+    cookiesenv = os.getenv("COOKIES")
+    cookiesenv = base64.b64decode(cookiesenv).decode("UTF-8")
+    with open("cookies.txt" , "w") as c:
+        c.write(cookiesenv)
     headers = {
         'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:155.0) Gecko/20100101 Firefox/155.0',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
