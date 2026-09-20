@@ -31,17 +31,13 @@ for s in page.find_all("script"):
                 description = description.replace(r"\n", "\n").replace(r"\'", "'").replace(r"\"", '"')
                 description =html.unescape(description).strip()
             
-
-            print(description)
-            
-            
-            
             if bookid in exists :
                 pass
             else:
-                row = [title , author , description , link]
-                exists.add(bookid)
-                data.append(row)
+                if description != None:
+                    row = [title , author , description , link]
+                    exists.add(bookid)
+                    data.append(row)
             
             
 with open("data.txt" , "w") as d:
