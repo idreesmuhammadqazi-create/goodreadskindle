@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import html
-import bookpagefetcher as b
+import re
 
 
 data = []
@@ -16,7 +16,6 @@ for s in page.find_all("script"):
     else :
         with open("tmp.txt", "w" ) as t:
             t.write(s.string)
-        
         with open("tmp.txt", "r") as t:
             text = t.read()
             rawtitle = text.split("<h2>")[1].split(r"<\/h2>")[0]
@@ -26,16 +25,24 @@ for s in page.find_all("script"):
             title = rawtitle.split(r'false\">')[1].split(r'<\/a>')[0]
             title = html.unescape(title)
             author = text.split(r"origin=recs_landing\">")[1].split(r'<\/a>')[0]
+            description = re.search(r'style=\\"display:none\\">(.*?)<\\/span>' , text , re.DOTALL)
+            if description != None :
+                description = description.group(1)
+                description = description.replace(r"\n", "\n").replace(r"\'", "'").replace(r"\"", '"')
+                description =html.unescape(description).strip()
+            
+
+            print(description)
+            
             
             
             if bookid in exists :
                 pass
             else:
-                row = [title , author , link]
+                row = [title , author , description , link]
                 exists.add(bookid)
                 data.append(row)
             
             
-link = data[0][2]
-print(link)
-b.fetchpage(link)
+with open("data.txt" , "w") as d:
+    d.write(str(data))
