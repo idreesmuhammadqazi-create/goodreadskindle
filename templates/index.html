@@ -4,7 +4,12 @@
         <title>GoodReads Kindle Ed</title>
     </head>
     <body>
-        <H1>Recommendations</H1>
+        <h2>Search</h2>
+        <form action="/search" method="POST">
+            <input type="text" name="query"  >
+            <input type="submit" value="Search">
+        </form>
+        <H2>Recommendations</H2>
         {% for b in data %}
             <h3>{{ b[0] }}</h3><p>by {{ b[1] }}</p>
 

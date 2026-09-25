@@ -74,6 +74,13 @@ def home():
     data = dataparser()
     return render_template("index.html" , data=data)
 
+@app.route("/search" ,methods=["POST"])
+def search():
+    query = request.form["query"]
+    url = "https://www.goodreads.com/search"
+    params = {
+        "q" : query
+    }
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
