@@ -5,13 +5,42 @@ import re
 import os
 import base64
 import requests
-from flask import Flask, render_template
+from flask import Flask, render_template, request 
 import http.cookiejar
+import http
+from random_header_generator import HeaderGenerator
 
 exists = set()
 data = []
 app = Flask(__name__)
 dotenv.load_dotenv()
+
+def booksearch(query):
+    url = "https://www.goodreads.com/search"
+    params = {
+        "q" : query
+    }
+
+    headers = HeaderGenerator()()
+    cookies = http.cookiejar.MozillaCookieJar("cookies.txt")
+    cookies.load(ignore_discard=True,ignore_expires=True)
+    response = requests.get(url , params=params, headers=headers )
+    page = BeautifulSoup(response.text, "html.parser")
+    page = page.prettify()
+    longlist = re.search(r'<ul aria-label="Book search results" class="Books" data-testid="book-list-item" role="list">(.*?)</ul>' , page , re.DOTALL)
+    longlist = longlist.group(0)
+    labels = re.findall(r' <a aria-label="[^"]+" class="BookCard__stretchedLink" href="[^"]+" rel="noopener noreferrer" tabindex="-1">' , longlist)
+    results = []
+    index = 0
+    for e in labels:
+        title = re.search(r'<a aria-label="(.*?)"' , e)
+        title = title.group(1)
+        link = re.search(r'href="(.*?)"' , e)
+        link = link.group(1)
+        link = "https://goodreads.com" + link
+        results.append([title , link])
+    return results
+
 
 
 def dataparser():
@@ -77,10 +106,8 @@ def home():
 @app.route("/search" ,methods=["POST"])
 def search():
     query = request.form["query"]
-    url = "https://www.goodreads.com/search"
-    params = {
-        "q" : query
-    }
+    results = booksearch(query)
+    return render_template("search.html" , results=results)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)

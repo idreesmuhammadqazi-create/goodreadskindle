@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GoodReads Kindle Ed</title>
+    </head>
+    <body>
+        <form action="/" method="GET">
+            <input type="submit" value="Go Back">
+        </form>
+        <H2>Results</H2>
+        {% for r in results %}
+            <h3>{{ r[0] }}</h3>
+
+            <p>{{ r[1]}}</p>
+
+
+        {% endfor %}
+    </body>
+</html>
