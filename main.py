@@ -9,6 +9,7 @@ from flask import Flask, render_template, request
 import http.cookiejar
 import http
 from random_header_generator import HeaderGenerator
+import bookpagefetcher as bookpagefetcher
 
 exists = set()
 data = []
@@ -39,15 +40,13 @@ def booksearch(query):
         link = link.group(1)
         link = "https://goodreads.com" + link
         results.append([title , link])
+    for r in results :
+        r.append(bookpagefetcher.getdescription(r[1]))
     return results
 
 
 
 def dataparser():
-    cookiesenv = os.getenv("COOKIES")
-    cookiesenv = base64.b64decode(cookiesenv).decode("UTF-8")
-    with open("cookies.txt" , "w") as c:
-        c.write(cookiesenv)
     headers = {
         'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:155.0) Gecko/20100101 Firefox/155.0',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -110,4 +109,4 @@ def search():
     return render_template("search.html" , results=results)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=5000 , debug=True)
