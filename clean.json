@@ -1,0 +1,2971 @@
+{
+  "ROOT_QUERY": {
+    "__typename": "Query",
+    "getAdsTargeting({\"getAdsTargetingInput\":{\"contextual\":{}}})": {
+      "__typename": "AdsTargeting",
+      "behavioral": null,
+      "contextual": null
+    },
+    "getSiteHeaderBanner": {
+      "__typename": "SiteHeaderBanner",
+      "altText": "Horror Recs by Place",
+      "clickthroughUrl": "https://www.goodreads.com/blog/show/3143?ref=HorrorPlace26_eb",
+      "desktop1xPhoto": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/siteheaderbannerimages/1790617881i/781.jpg",
+      "desktop2xPhoto": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/siteheaderbannerimages/1790617893i/782.jpg",
+      "mobile1xPhoto": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/siteheaderbannerimages/1790617906i/783.jpg",
+      "mobile2xPhoto": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/siteheaderbannerimages/1790617918i/784.jpg",
+      "siteStripColor": "#A63F24"
+    },
+    "getBookByLegacyId({\"legacyId\":\"169485073\"})": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "getPageBanner({\"getPageBannerInput\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\",\"pageName\":\"book_show\"}})": {
+      "__typename": "PageBanner",
+      "type": null,
+      "message": null
+    },
+    "getReviews": {
+      "__typename": "BookReviewsConnection",
+      "totalCount": 20875,
+      "edges": [
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.UwdxeoTt_neLe2f8o7-xoQ"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.b9jGfF9FjVOIh0dpIKZL_g"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.wqwrz0NxRmzS_50O3I20hg"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.NUjjl4ajCo3kxzuSPr6Dcw"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.jK0lqwHCeWOTJ8so_aisIg"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.mKl_h3H8YkEJoVYicKca_Q"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.heVB77Z4LyEMtlxH0Y7xEQ"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.CFfKQRBUtYfvucAelHjAEQ"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.-iMcvN9ZtJCYxc3AGS-auA"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.GAnNXN2ikCE9VvAXV_RZrQ"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.9rB8Y0ZKi2w0tiSc5QvaAg"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.Rz9zBn-OMEv22X8OJGVYmA"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.2sceaZbczuB0q6jJ0Cbcmw"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.UMS-NdRdzE2wRXtYtYBbTQ"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.X1hKHWiLVfWrwGgbnMWWCQ"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.VjV1Ou7f7w61zbZzolkJug"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.o5TNRrmBUBvPhwZpM139xA"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1._rmZETX1odiYcF8yabIMJA"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.L37LOL4dVTvVUjUyqChW0w"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.DSY4SBq_41AShYl6VeY6oA"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.9J56ZURsy1B8MuFxsZaPdA"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.SgnxAOJBLsdsUqqfIiYN8g"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.vxehmGoQ4Td_EbJ5qFUFfQ"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.EjXchiN51bZ__j1SRpX4gw"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.SW1y6To_ZLg_vnl_nHhf4Q"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.VFfNRQuTrlIa30XLd6KTJg"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.8ZqE-mIjV3mdAD1gR8wfJA"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.VtPwLNxWzE7LP7jdZtsyXw"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.__pKRIG8iVYpy0CaR2nUcg"
+          }
+        },
+        {
+          "__typename": "BookReviewsEdge",
+          "node": {
+            "__ref": "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.JwNDyW6c3wmlrayCWZXcqw"
+          }
+        }
+      ],
+      "pageInfo": {
+        "__typename": "PageInfo",
+        "prevPageToken": "NjAxMDAsMTc1MzI2OTYxNTc1Mw",
+        "nextPageToken": "ODIwMSwxNzQzMTkzMDU2NTA4"
+      }
+    },
+    "getSocialSignals({\"bookId\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\",\"shelfStatus\":[\"CURRENTLY_READING\",\"TO_READ\"]})": [
+      {
+        "__typename": "SocialSignal",
+        "name": "CURRENTLY_READING",
+        "count": 22834,
+        "shelfPhrase": "are currently reading",
+        "userPhrase": "22834 people are currently reading",
+        "users": [
+          {
+            "__typename": "SocialSignalUserEdge",
+            "node": {
+              "__typename": "User",
+              "name": "Bluem",
+              "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1691663245i/114456451._UY200_CR77,0,200,200_.jpg"
+            }
+          },
+          {
+            "__typename": "SocialSignalUserEdge",
+            "node": {
+              "__typename": "User",
+              "name": "Will Bueche",
+              "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1658193938i/2098265._UY200_CR50,0,200,200_.jpg"
+            }
+          },
+          {
+            "__typename": "SocialSignalUserEdge",
+            "node": {
+              "__typename": "User",
+              "name": "Zach Brown",
+              "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1694553544i/158419510._UX200_CR0,0,200,200_.jpg"
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "SocialSignal",
+        "name": "TO_READ",
+        "count": 168454,
+        "shelfPhrase": "want to read",
+        "userPhrase": "168454 people want to read",
+        "users": [
+          {
+            "__typename": "SocialSignalUserEdge",
+            "node": {
+              "__typename": "User",
+              "name": "Aaron",
+              "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1744144298i/150934723._UX200_CR0,0,200,200_.jpg"
+            }
+          },
+          {
+            "__typename": "SocialSignalUserEdge",
+            "node": {
+              "__typename": "User",
+              "name": "John Ross",
+              "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1764218542i/32648000._UX200_CR0,0,200,200_.jpg"
+            }
+          },
+          {
+            "__typename": "SocialSignalUserEdge",
+            "node": {
+              "__typename": "User",
+              "name": "Bradley",
+              "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1508811508i/4213258._UY200_CR91,0,200,200_.jpg"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "User:33518935": {
+    "__typename": "User",
+    "legacyId": 33518935,
+    "viewerRelationshipStatus": null,
+    "followersCount": 21514,
+    "id": 33518935
+  },
+  "Contributor:kca://author/amzn1.gr.author.v1.NxZqGadXzhMJ3Wh11EyYDw": {
+    "__typename": "Contributor",
+    "id": "kca://author/amzn1.gr.author.v1.NxZqGadXzhMJ3Wh11EyYDw",
+    "legacyId": 8427407,
+    "name": "James Islington",
+    "description": "James Islington was born and raised in southern Victoria, Australia. His influences growing up were the stories of Raymond E. Feist and Robert Jordan, but it wasn't until later, when he read Brandon Sanderson's <i>Mistborn</i> series - followed soon after by Patrick Rothfuss' <i>Name of the Wind</i> - that he was finally inspired to sit down and write something of his own. He now lives with his wife and two children on the Mornington Peninsula in Victoria.",
+    "isGrAuthor": true,
+    "works": {
+      "__typename": "ContributorWorksConnection",
+      "totalCount": 14
+    },
+    "profileImageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/authors/1472878152i/8427407._UX200_CR0,4,200,200_.jpg",
+    "webUrl": "https://www.goodreads.com/author/show/8427407.James_Islington",
+    "viewerIsFollowing": null,
+    "followers": {
+      "__typename": "ContributorFollowersConnection",
+      "totalCount": 21514
+    },
+    "user": {
+      "__ref": "User:33518935"
+    }
+  },
+  "Series:kca://series/amzn1.gr.series.v3.NgaVGN3xjNxcQXpY": {
+    "__typename": "Series",
+    "id": "kca://series/amzn1.gr.series.v3.NgaVGN3xjNxcQXpY",
+    "title": "Hierarchy",
+    "webUrl": "https://www.goodreads.com/series/358080-hierarchy"
+  },
+  "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4": {
+    "__typename": "Book",
+    "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+    "legacyId": 169485073,
+    "webUrl": "https://www.goodreads.com/book/show/169485073-the-strength-of-the-few",
+    "viewerShelving": null,
+    "title": "The Strength of the Few",
+    "titleComplete": "The Strength of the Few (Hierarchy, #2)",
+    "description": "Omne trium perfectum<br /><br />The Hierarchy still call me Vis Telimus. Still hail me as Catenicus. They still, as one, believe they know who I am.<br /><br />But with all that has happened—with what I fear is coming—I am not sure it matters anymore.<br /><br />I am no longer one. I won the Iudicium and lost everything—and now, impossibly, the ancient device beyond the Labyrinth has replicated me across three separate worlds. A different version of myself in each of Obiteum, Luceum, and Res. Three different bodies, three different lives. I have to hide; fight; play politics. I have to train; trust; lie. I have to kill; heal; prove myself again, and again, and again.<br /><br />I am loved, and hated, and entirely alone.<br /><br />Above all, though, I need to find answers before it’s too late. To understand the nature of what has happened to me and why.<br /><br />I need to find a way to stop the coming Cataclysm, because if all I have learned is true, I may be the only one who can.",
+    "description({\"stripped\":true})": "Omne trium perfectum\r\n\r\nThe Hierarchy still call me Vis Telimus. Still hail me as Catenicus. They still, as one, believe they know who I am.\r\n\r\nBut with all that has happened—with what I fear is coming—I am not sure it matters anymore.\r\n\r\nI am no longer one. I won the Iudicium and lost everything—and now, impossibly, the ancient device beyond the Labyrinth has replicated me across three separate worlds. A different version of myself in each of Obiteum, Luceum, and Res. Three different bodies, three different lives. I have to hide; fight; play politics. I have to train; trust; lie. I have to kill; heal; prove myself again, and again, and again.\r\n\r\nI am loved, and hated, and entirely alone.\r\n\r\nAbove all, though, I need to find answers before it’s too late. To understand the nature of what has happened to me and why.\r\n\r\nI need to find a way to stop the coming Cataclysm, because if all I have learned is true, I may be the only one who can.",
+    "primaryContributorEdge": {
+      "__typename": "BookContributorEdge",
+      "node": {
+        "__ref": "Contributor:kca://author/amzn1.gr.author.v1.NxZqGadXzhMJ3Wh11EyYDw"
+      },
+      "role": "Author"
+    },
+    "secondaryContributorEdges": [],
+    "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1742965949i/169485073.jpg",
+    "bookSeries": [
+      {
+        "__typename": "BookSeries",
+        "userPosition": "2",
+        "series": {
+          "__ref": "Series:kca://series/amzn1.gr.series.v3.NgaVGN3xjNxcQXpY"
+        }
+      }
+    ],
+    "bookGenres": [
+      {
+        "__typename": "BookGenre",
+        "genre": {
+          "__typename": "Genre",
+          "name": "Fantasy",
+          "webUrl": "https://www.goodreads.com/genres/fantasy"
+        }
+      },
+      {
+        "__typename": "BookGenre",
+        "genre": {
+          "__typename": "Genre",
+          "name": "Fiction",
+          "webUrl": "https://www.goodreads.com/genres/fiction"
+        }
+      },
+      {
+        "__typename": "BookGenre",
+        "genre": {
+          "__typename": "Genre",
+          "name": "Audiobook",
+          "webUrl": "https://www.goodreads.com/genres/audiobook"
+        }
+      },
+      {
+        "__typename": "BookGenre",
+        "genre": {
+          "__typename": "Genre",
+          "name": "Science Fiction",
+          "webUrl": "https://www.goodreads.com/genres/science-fiction"
+        }
+      },
+      {
+        "__typename": "BookGenre",
+        "genre": {
+          "__typename": "Genre",
+          "name": "High Fantasy",
+          "webUrl": "https://www.goodreads.com/genres/high-fantasy"
+        }
+      },
+      {
+        "__typename": "BookGenre",
+        "genre": {
+          "__typename": "Genre",
+          "name": "Epic Fantasy",
+          "webUrl": "https://www.goodreads.com/genres/epic-fantasy"
+        }
+      },
+      {
+        "__typename": "BookGenre",
+        "genre": {
+          "__typename": "Genre",
+          "name": "Adult",
+          "webUrl": "https://www.goodreads.com/genres/adult"
+        }
+      },
+      {
+        "__typename": "BookGenre",
+        "genre": {
+          "__typename": "Genre",
+          "name": "Adventure",
+          "webUrl": "https://www.goodreads.com/genres/adventure"
+        }
+      },
+      {
+        "__typename": "BookGenre",
+        "genre": {
+          "__typename": "Genre",
+          "name": "Dark Academia",
+          "webUrl": "https://www.goodreads.com/genres/dark-academia"
+        }
+      },
+      {
+        "__typename": "BookGenre",
+        "genre": {
+          "__typename": "Genre",
+          "name": "Dystopia",
+          "webUrl": "https://www.goodreads.com/genres/dystopia"
+        }
+      }
+    ],
+    "details": {
+      "__typename": "BookDetails",
+      "asin": "B0DVFH8FXJ",
+      "format": "Hardcover",
+      "numPages": 736,
+      "publicationTime": 1762848000000,
+      "publisher": "Text Publishing",
+      "isbn": null,
+      "isbn13": null,
+      "language": {
+        "__typename": "Language",
+        "name": "English"
+      }
+    },
+    "work": {
+      "__ref": "Work:kca://work/amzn1.gr.work.v3.J-yynfWKKOul87qA"
+    },
+    "links": {
+      "__typename": "BookLinks",
+      "primaryAffiliateLink": {
+        "__typename": "KindleLink",
+        "name": "Amazon",
+        "url": "https://www.amazon.com/gp/product/B0F2BBKX6B/ref=x_gr_bb_kindle?caller=Goodreads&tag=x_gr_bb_kindle-20",
+        "ref": "x_gr_bb_kindle",
+        "ebookPrice": "16.99",
+        "kuEligible": false,
+        "primeEligible": false
+      },
+      "secondaryAffiliateLinks": [
+        {
+          "__typename": "BookLink",
+          "name": "Amazon",
+          "url": "http://www.amazon.com/gp/product/B0DVFH8FXJ/ref=x_gr_bb_amazon?ie=UTF8&tag=x_gr_bb_amazon-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B0DVFH8FXJ&SubscriptionId=1MGPYB6YW3HWK55XCGG2",
+          "ref": "x_gr_bb_amazon"
+        },
+        {
+          "__typename": "BookLink",
+          "name": "Audible",
+          "url": "https://www.amazon.com/s?k=The+Strength+of+the+Few&i=audible&ref=x_gr_bb_audible&tag=x_gr_bb_audible-20",
+          "ref": "x_gr_bb_audible"
+        },
+        {
+          "__typename": "BookLink",
+          "name": "Barnes & Noble",
+          "url": "https://www.barnesandnoble.com/s/The+Strength+of+the+Few",
+          "ref": null
+        },
+        {
+          "__typename": "BookLink",
+          "name": "AbeBooks",
+          "url": "http://affiliates.abebooks.com/c/64613/77416/2029?u=http%3A%2F%2Fwww.abebooks.com%2Fservlet%2FSearchResults%3Ftn%3DThe+Strength+of+the+Few",
+          "ref": null
+        },
+        {
+          "__typename": "BookLink",
+          "name": "Kobo",
+          "url": "https://click.linksynergy.com/fs-bin/click?id=GwEz7vxblVU&subid=&offerid=361251.1&type=10&tmpid=9309&u1=x_gr_w_bb&RD_PARM1=https%3A%2F%2Fwww.kobo.com%2Fus%2Fen%2Fsearch%3FQuery%3DThe+Strength+of+the+Few",
+          "ref": null
+        },
+        {
+          "__typename": "BookLink",
+          "name": "Google Play",
+          "url": "https://play.google.com/store/search?q=The+Strength+of+the+Few&c=books&PCamrefID=bookpage&PAffiliateID=10lHMS",
+          "ref": null
+        },
+        {
+          "__typename": "BookLink",
+          "name": "Alibris",
+          "url": "http://click.linksynergy.com/fs-bin/click?id=GwEz7vxblVU&subid=&offerid=189673.1&type=10&tmpid=939&&u1=x_gr_w_bb&RD_PARM1=http%3A%2F%2Fwww.alibris.com%2Fbooksearch%3Fkeyword%3DThe+Strength+of+the+Few",
+          "ref": null
+        },
+        {
+          "__typename": "BookLink",
+          "name": "Indigo",
+          "url": "https://www.chapters.indigo.ca/en-ca/home/search/?keywords=The+Strength+of+the+Few",
+          "ref": null
+        },
+        {
+          "__typename": "BookLink",
+          "name": "Better World Books",
+          "url": "http://www.tkqlhce.com/ob117vpyvpxCFFFKMHLCEDHLGHKECEFMIGDFFHJDDD?url=http%3A%2F%2Fwww.betterworldbooks.com%2FThe+Strength+of+the+Few-H0.aspx%3FSearchTerm%3DThe+Strength+of+the+Few",
+          "ref": null
+        },
+        {
+          "__typename": "BookLink",
+          "name": "IndieBound",
+          "url": "https://www.indiebound.org/search/book?keys=The+Strength+of+the+Few",
+          "ref": null
+        },
+        {
+          "__typename": "BookLink",
+          "name": "Thriftbooks",
+          "url": "https://prf.hn/click/camref:1101ljNE7/pubref:The+Strength+of+the+Few/destination:https://www.thriftbooks.com/browse/?b.search=The+Strength+of+the+Few",
+          "ref": null
+        }
+      ],
+      "libraryLinks": [],
+      "overflowPageUrl": "https://www.goodreads.com/book/169485073-the-strength-of-the-few/get_a_copy",
+      "seriesLink": {
+        "__typename": "SeriesLink",
+        "name": "Amazon Series",
+        "url": "https://www.amazon.com/gp/product/B0BJQL8C8V/ref=x_gr_bb_series?caller=Goodreads&tag=x_gr_bb_series-20&binding=kindle_edition",
+        "ref": "x_gr_bb_series"
+      }
+    },
+    "reviewEditUrl": "https://www.goodreads.com/review/edit/169485073",
+    "featureFlags": {
+      "__typename": "FeatureFlags",
+      "hideAds": false,
+      "noIndex": false,
+      "noReviews": false,
+      "noNewRatings": false,
+      "noNewTextReviews": false
+    }
+  },
+  "Work:kca://work/amzn1.gr.work.v3.J-yynfWKKOul87qA": {
+    "__typename": "Work",
+    "id": "kca://work/amzn1.gr.work.v3.J-yynfWKKOul87qA",
+    "legacyId": 178822024,
+    "bestBook": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "choiceAwards": [
+      {
+        "__typename": "Award",
+        "awardedAt": 2025,
+        "category": "Readers' Favorite Fantasy",
+        "designation": "NOMINEE",
+        "webUrl": "https://www.goodreads.com/choiceawards/readers-favorite-fantasy-books-2025"
+      }
+    ],
+    "details": {
+      "__typename": "WorkDetails",
+      "webUrl": "https://www.goodreads.com/work/178822024-the-strength-of-the-few",
+      "shelvesUrl": "https://www.goodreads.com/work/shelves/178822024-the-strength-of-the-few",
+      "publicationTime": 1762848000000,
+      "originalTitle": "The Strength of the Few",
+      "awardsWon": [
+        {
+          "__typename": "Award",
+          "name": "Goodreads Choice Award",
+          "webUrl": "https://www.goodreads.com/award/show/21332-goodreads-choice-award",
+          "awardedAt": 1735718400000,
+          "category": "Fantasy",
+          "designation": "NOMINEE"
+        }
+      ],
+      "places": [],
+      "characters": []
+    },
+    "stats": {
+      "__typename": "BookOrWorkStats",
+      "averageRating": 4.29,
+      "ratingsCount": 138369,
+      "ratingsCountDist": [
+        576,
+        3187,
+        17587,
+        52436,
+        64583
+      ],
+      "textReviewsCount": 20917,
+      "textReviewsLanguageCounts": [
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 18999,
+          "isoLanguageCode": "en"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 1,
+          "isoLanguageCode": "th"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 300,
+          "isoLanguageCode": "es"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 68,
+          "isoLanguageCode": "nl"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 57,
+          "isoLanguageCode": "pt"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 56,
+          "isoLanguageCode": "fr"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 144,
+          "isoLanguageCode": "de"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 8,
+          "isoLanguageCode": "et"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 45,
+          "isoLanguageCode": "it"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 27,
+          "isoLanguageCode": "sv"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 7,
+          "isoLanguageCode": "fi"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 10,
+          "isoLanguageCode": "uk"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 3,
+          "isoLanguageCode": "lt"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 21,
+          "isoLanguageCode": "no"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 7,
+          "isoLanguageCode": "is"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 10,
+          "isoLanguageCode": "da"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 18,
+          "isoLanguageCode": "bg"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 4,
+          "isoLanguageCode": "vi"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 90,
+          "isoLanguageCode": "pl"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 7,
+          "isoLanguageCode": "tr"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 4,
+          "isoLanguageCode": "ca"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 2,
+          "isoLanguageCode": "ar"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 4,
+          "isoLanguageCode": "cs"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 6,
+          "isoLanguageCode": "id"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 5,
+          "isoLanguageCode": "lv"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 1,
+          "isoLanguageCode": "fa"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 2,
+          "isoLanguageCode": "gl"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 1,
+          "isoLanguageCode": "eu"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 1,
+          "isoLanguageCode": "sr"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 1,
+          "isoLanguageCode": "sl"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 1,
+          "isoLanguageCode": "ru"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 1,
+          "isoLanguageCode": "ro"
+        },
+        {
+          "__typename": "TextReviewLanguageCount",
+          "count": 1,
+          "isoLanguageCode": "la"
+        }
+      ]
+    },
+    "quotes({\"pagination\":{\"limit\":1}})": {
+      "__typename": "ResourceQuotesConnection",
+      "webUrl": "https://www.goodreads.com/work/quotes/178822024",
+      "totalCount": 148
+    },
+    "questions({\"pagination\":{\"limit\":1}})": {
+      "__typename": "ResourceQuestionsConnection",
+      "totalCount": 3,
+      "webUrl": "https://www.goodreads.com/book/169485073/questions"
+    },
+    "topics({\"pagination\":{\"limit\":1}})": {
+      "__typename": "ResourceTopicsConnection",
+      "webUrl": "https://www.goodreads.com/topic/list_book/169485073",
+      "totalCount": 24
+    },
+    "viewerShelvings": null,
+    "viewerShelvingsUrl": "/review/user_works/178822024",
+    "featuredKNH": {
+      "__typename": "FeaturedKNHCollectionConnection",
+      "totalCount": 0,
+      "edges": []
+    },
+    "giveaways": {
+      "__typename": "GiveawaysConnection",
+      "edges": []
+    },
+    "editions": {
+      "__typename": "BooksConnection",
+      "webUrl": "https://www.goodreads.com/work/editions/178822024"
+    }
+  },
+  "User:59458347": {
+    "__typename": "User",
+    "legacyId": 59458347,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1568016775i/59458347._UY200_CR56,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 67217,
+    "textReviewsCount": 784,
+    "name": "Petrik",
+    "webUrl": "https://www.goodreads.com/user/show/59458347-petrik",
+    "contributor": null,
+    "id": 59458347
+  },
+  "User:kca://profile:goodreads/A1GXC5ZA8EFKNH": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A1GXC5ZA8EFKNH"
+  },
+  "Book:kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE": {
+    "__typename": "Book",
+    "id": "kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A1GXC5ZA8EFKNH\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A1GXC5ZA8EFKNH",
+      "id": "kca://profile:goodreads/A1GXC5ZA8EFKNH"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE",
+      "id": "kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/59458347?shelf=read"
+    },
+    "taggings": [
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "arcs-and-review-copies",
+          "webUrl": "https://www.goodreads.com/review/list/59458347?shelf=arcs-and-review-copies"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "favorites",
+          "webUrl": "https://www.goodreads.com/review/list/59458347?shelf=favorites"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "masterpieces",
+          "webUrl": "https://www.goodreads.com/review/list/59458347?shelf=masterpieces"
+        }
+      }
+    ],
+    "webUrl": "https://www.goodreads.com/review/show/5710987282"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.UwdxeoTt_neLe2f8o7-xoQ": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.UwdxeoTt_neLe2f8o7-xoQ",
+    "creator": {
+      "__ref": "User:59458347"
+    },
+    "recommendFor": null,
+    "updatedAt": 1764435233831,
+    "createdAt": 1753269615753,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1764435233830,
+    "text": "<i>ARC provided by the publisher—Saga Press—in exchange for an honest review.</i><br /><br />We’re not at the end of 2025 yet, but I believe <b><i>The Strength of the Few</i> by James Islington has secured the best fantasy book of the year award.</b> This is the finest sequel I’ve read since <i>Words of Radiance</i> by Brandon Sanderson and <i>The Wall of Storms</i> by Ken Liu.<br /><br /><b>\n  <blockquote>“The power to protect is the highest responsibility.”</blockquote>\n</b><br /><br />I am fortunate that a fantasy author as good as James Islington is still distributing the strength of his storytelling to the pages for us to read. I’ve been a fan of Islington since <i>The Licanius Trilogy</i>, and when I finished reading <i>The Will of the Many</i> in March 2023, I had a gut feeling <i>The Hierarchy</i> series will top over his first series in overall quality. This prediction has become a reality. Since the release of <i>The Will of the Many</i>, the popularity and critical acclaim of the novel have escalated gradually, and there is no sign of it stopping anytime soon. Everything is well-deserved. Once <i>The Strength of the Few</i> is officially published, that fame and success would be unstoppable. <br /><br /><b>\n  <blockquote>“Words sound the same coming from the honest and the deceiving, the informed and the deceived. They matter—never think otherwise—but most of the time, people need to be shown a truth before they will truly believe it.”</blockquote>\n</b><br /><br />It has been ten months since I had a new 5-stars rating for a new fantasy book I read. I am pleased to say, the curse has been broken. <i>The Strength of the Few</i> is utterly brilliant and ambitious in every possible way. Before you continue reading this review, if you haven’t read <i>The Will of the Many</i>, make sure to fix that negligence first. Trust me. Just do it. Epic fantasy readers should count themselves blessed to read a magnum opus as incredible as <i>The Will of the Many</i> and <i>The Strength of the Few</i> in their lifetime. If you still need some convincing, you can continue reading. This review is entirely spoiler-free. I have selected my words carefully to ensure those who have or haven’t read <i>The Will of the Many</i> will be able to read this review without getting spoiled. At least, I hope so.<br /><br /><b>\n  <blockquote>“You have to make them believe, my dear boy, whenever they see you step out onto that stage. Because it is faith that makes us cheer, and a triumph forgotten is no different to defeat.”</blockquote>\n</b><br /><br />Due to the nature of the novel as a sequel, I have refrained from most character names to avoid spoilers. Besides Vis, the two new POV characters—I will use their alias in this review—and world-building elements, no other names from the books will be mentioned here. I can, however, start this review by telling you that <i>The Strength of the Few</i> continues immediately from where the previous book left off. Yes, after those mindblowing epilogue chapters. As I said in my brief first impression, the first six chapters of <i>The Strength of the Few</i> have already topped every single epic fantasy book I read this year. Groundbreaking revelations and questions were consecutively delivered to the readers from the beginning to the end. And the heavy repercussions of the end of <i>The Will of the Many</i> laid the groundwork for the entire narrative in this sequel. This is a book that dives deeply into the themes of adulthood, grief, choices, justice, freedom, ambition, revenge, life, and death. There are a lot of things to unravel and explore in this novel, and Islington made the right call—as expected—by conveying the narrative from the perspective of three characters rather than one like <i>The Will of the Many</i> did. All three are told in a first-person present-tense narration. Omne trium perfectum. Everything in three is perfect. <br /><br /><b>\n  <blockquote>“It is unpleasant, but this is the world you and I live in, now. Men must be bought or compelled, rather than relied upon to do the right thing.”</blockquote>\n</b><br /><br />It goes without saying that Vis’s storyline will most likely be the majority of readers’ favorite. All three POV characters were amazing in their own way, but the continuation of Vis’s story from the first book is special. Seeing his development as a main character was an absorbing reading experience. The friendship he has nurtured with his friends and companions, no matter how few, acts as a strong moral compass when wrath and vengeance cloud his path. There have been many iconic central characters in the fantasy genre. Characters that the fans of the genre will instantly recall whenever they’re asked, “who’s your favorite characters in the fantasy and science fiction genre?” Names like Aragorn, Frodo, Samwise Gamgee, Kaladin Stormblessed, Vin, Jon Snow, Tyrion Lannister, Darrow of Lykos, Logen Ninefingers, Sand dan Glokta, Fitz Chivalry, and the list goes on will be uttered. I have no doubt that after readers read <i>The Strength of the Few</i> and the rest of the series, Vis Telimus will earn the same level of fame and prestige. He WILL become one of the most iconic characters in the genre. This isn’t even an opinion. Watch this become the truth in a few years from now. <br /><br /><b>\n  <blockquote>“A society cannot make a man a monster, Diago. But it can give him the excuse to become one.”</blockquote>\n</b><br /><br />Like it or not, fantasy readers will remember Vis. In <i>The Strength of the Few</i>, he went through brutality and ordeal even worse than what he had faced before in <i>The Will of the Many</i>. The world and society he’s in steadily grow more violent, bloody, and unfair. Seeing Vis navigate the extreme turmoils and carnage in his life was one of the most engaging and immersive reading experiences I’ve had the pleasure of reading. I cannot help but applaud Islington for everything that he achieved with this character in the first two books of the series. It was staggeringly clever. And I am confident many readers will love reading his POV chapters.<br /><br /><b>\n  <blockquote>“Fear is a lack of control… And I am tired of being afraid. I want to be able to see justice in the world again.”</blockquote>\n</b><br /><br />The high level of cunning in writing and world-building are replicated to the other two POV characters as well. The POV name Siamun and Deaglan are introduced for the first time in <i>The Strength of the Few</i>, but if you have finished <i>The Will of the Many</i>, you will know who they are. <i>The Strength of the Few</i>, in fact, starts with Siamun as the first POV chapter. And Islington did not spend any moment for fillers. Introductions, answers, and questions about Will, Ka, Concurrence, gleaners, the Cataclysms, and many more I cannot mention due to spoilers, arised quickly. Honestly, it was genius. <br /><br /><b>\n  <blockquote>“Rule a man, and he will do whatever you can imagine. Befriend him, and he will do more.”</blockquote>\n</b><br /><br />This did not come as a surprise for me. I knew this would happen. Many readers who loved <i>The Will of the Many</i> slept on <i>The Licanius Trilogy</i>, but if you have read the series, too, you will know Islington ramped up the complexity, tension, and development of his series with each subsequent sequel. This is what he did and succeded marvelously again in <i>The Strength of the Few</i>. Siamun’s storyline was incredibly fascinating and linked to Vis’s story. While it is a new setting per se, readers will have a blast learning about the darkness and mazes of history and mystery Islington has crafted here. Make sure to prepare some free time before you start reading <i>The Strength of the Few</i>. You’re going to need it. Ante Omnia Amari. Before all else, be armed. <br /><br /><b>\n  <blockquote>“The oldest argument for doing something wrong is that everyone is doing it. To dismantle what they have built would have required the agreement of every man who had spent his life building it… It would have required them to give up all they have striven their entire lives to gain. And they would have needed to do it, largely, for the benefit of those at whose expense it originally came.”</blockquote>\n</b><br /><br />Finally, we have Deaglan. This is a relatively tricky one. Deaglan, unlike Vis and Siamun, will feel the most disjointed out of the three POV chapters. Vis and Siamun POV chapters have a super-connected storyline and world-building. Deaglan, for the majority of the novel, felt like a spin-off (This is, obviously, not the case) inserted into <i>The Strength of the Few</i>, especially because all of the new characters and terminologies that were introduced in Deaglan’s story. And then the names and world-building are Irish and Celtic-inspired rather than Roman. Islington has always been an architect storyteller, in my view. He plans things ahead. There are good reasons why Deaglan’s story was structured this way. To name one. Without the development laid in the first two acts, the theme of starting over, adulthood, and regret would not have such a powerful impact on Act III of <i>The Strength of the Few</i>. I strongly recommend having trust and patience with the narrative here. Islington will make sure your patience is immensely rewarded. Tuae electiones fis. Your choices are yours.<br /><br /><b>\n  <blockquote>“Poor luck? No. Poor luck is being the Octavus who sees the truth of the Hierarchy. It is being the farmer, or soldier, or merchant who comprehends the absurd power of those above them, but has no way of convincing them to act. It is being those of us who know these great and terrible dangers are coming and cannot do anything about them. Poor luck? Poor luck is being powerless… Poor luck is being without choice. So many of us are aware of these currents, but are able only to drown in them. Millions upon millions of people have poor luck. But you are not one of them.”</blockquote>\n</b><br /><br />Also, while there were understandable grievances about the cover change of the series, I disagree with the opinion stating that the new cover art doesn't match the content of the books. One of the arguments given during <i>The Will of the Many</i> new cover reveal was that the new cover art (illustrated by Jaime Jones) made the book look like it's a science fantasy or science fiction novel rather than a historical fantasy novel. I am so confused by this argument. It IS a science fantasy novel. The cover art should demonstrate that. There's a pattern in traditional publishing right now to make the cover art of a fantasy novel not look like a fantasy novel. I dislike this. Cover changes aside, I do think the new cover art of <i>The Will of the Many</i> and <i>The Strength of the Few</i> matches the content and themes of the books far better than the previous cover art did. And if there was any doubt that the <i>Hierarchy</i> is a science fantasy series, that notion will be cleared by reading the three POV characters' story in <i>The Strength of the Few</i>. If I were asked to give a comparison to what the series feels like, it felt like I was reading <i>Dark</i> (my favorite sci-fi TV show of all time) in epic science fantasy novel format.<br /><br /><b>\n  <blockquote>“The Hierarchy is a monster that has to feed to survive. And inevitably, once it has eaten everything else, all that is left to consume is itself.”</blockquote>\n</b><br /><br />Before I end this review, regardless of which POV chapters were your favorite, Islington reserved the greatest of his storytelling for the final Act of the novel: Act III. Act III of <i>The Strength of the Few</i> was a masterclass exhibition of how to end a sequel in such an explosive, emotional, and breathtaking way. The last Act of <i>The Will of the Many</i> was intense and emotional. <i>The Strength of the Few</i> managed to enhance that further. It plunged the characters into a state of absolute chaos and unstoppable torrents of mayhem. It was violent, brutal, devastating, and unputdownable. I read the entirety of Act III in a non-stop four-hour reading sprint. I cannot recall the last time I accomplished something like this with my reading. In two books, it felt like I had read a four-book fantasy series. Islington has achieved and progressed what most fantasy authors require in three or more books to fulfill. His storytelling in the <i>Hierarchy</i> series is fleshed out and superbly tuned with efficiency and effectiveness. Filled with layers upon layers of intricacies and depths, the scenes of a vivid red river of blood and destroyed stones will engrave themselves in the reader's mind. Mors omnia vincit. Death conquers all. Every word and page of Act III was nothing short of phenomenal. Simple as that.<br /><br /><b>\n  <blockquote>“People value only one thing now, and it is the same thing they have always valued. What is it they say, again? The needs of the many will always be loud… But in the end, it is only the strength of the few that matters.”</blockquote>\n</b><br /><br /><i>The Will of the Many</i> was the best fantasy book of the year for me in 2023. It was one of the best books I read that year, together with <i>Demon in White</i> by Christopher Ruocchio and <i>Light Bringer</i> by Pierce Brown. <i>The Strength of the Few</i> will copy that triumph this year. <i>The Strength of the Few</i> is a magnificent, ambitious, and riveting masterpiece. This is effortlessly the best fantasy book of 2025. With the available two books, it is safe to brand <i>The Hierarchy</i> series as James Islington’s magnum opus. It is a future classic fantasy series in the making. Islington has crafted a truly exceptional tale with this series. We are witnessing a new hallmark for the fantasy genre in motion. I am now feeling sorrowful that I have to wait for the next books in the series. If I am not mistaken, we are only halfway through the series. I did a reread of <i>The Will of the Many</i> before reading <i>The Strength of the Few</i>. When the third book of the <i>Hierarchy</i> is near, I know I will do the same thing again. Until then, I will live with the pain of waiting for the next book, and be grateful I get to read <i>The Will of the Many</i> and <i>The Strength of the Few</i> early. <br /><br />Hail, James Islington.<br /><br /><b>\n  <blockquote>“DEATH, EIDHIN ONCE INSISTED WHILE EXPLAINING THE ddram cyfraith to what we can see. Without it we would drift, overwhelmed, nothing to orient , is our most important horizon. It matters because we need an end ourselves against. Without it, we would never be able to focus on what is truly important: that which is in front of us. “</blockquote>\n</b><br /><br /><b>You can pre-order this book from: <u><a href=\"https://amzn.to/415Y52m\" rel=\"nofollow noopener\">Amazon</a></u> | <u><a href=\"https://www.blackwells.co.uk/?a_aid=petrikleobooks\" rel=\"nofollow noopener\">Blackwells (Free International shipping)</a></u></b><br /><br /><i>The quotes in this review were taken from an ARC and are subject to change upon publication.</i><br /><br /><b>You can find <u><a href=\"https://novelnotions.net/2025/08/13/book-review-the-strength-of-the-few-hierarchy-2-by-james-islington/\" rel=\"nofollow noopener\">this</a></u> and the rest of my reviews at <u><a href=\"http://novelnotions.net\" rel=\"nofollow noopener\">Novel Notions</a></u> | I also have a <u><a href=\"https://www.youtube.com/petrikleo\" rel=\"nofollow noopener\">Booktube channel</a></u></b><br /><br /><i>Special thanks to my Patrons on <b><u><a href=\"https://www.patreon.com/petrikleo\" rel=\"nofollow noopener\">Patreon</a></u></b> for giving me extra support towards my passion for reading and reviewing!<br /><br />My Patrons: Andrew. S, Arik, Arliss, Barbara, Ben, Benjamin, Biskit, Cade, Chris, Crystal, Cullen, Dan, Dylan, Edward, Elias, Erich, Feanor, Francesca, Frank, Gary, Gregory, James, Jason, Jeff, Jenn, Johnny, Joie, Jonathan, Katrina, Kim, Kristina, Lara, Leigh, Lourdes, Melinda, Michael. S, Mike, Mike S, Miracle, Mordie, Nicholas, Radiah, Rando, RCT, Sally, Samiadji, Samuel, Sarah, Scott, Sean, Shawn, Shawna, Stephanie, Trish, Tyler, TS, Wendy, Wick, Xero, Yuri, Zachary, Zammar.</i>",
+    "rating": 5,
+    "preciseRating": 5,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A1GXC5ZA8EFKNH\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE\"}}"
+    },
+    "likeCount": 1630,
+    "viewerHasLiked": null,
+    "commentCount": 155
+  },
+  "User:22102332": {
+    "__typename": "User",
+    "legacyId": 22102332,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1763077373i/22102332._UX200_CR0,32,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 12,
+    "textReviewsCount": 1,
+    "name": "Vensamos",
+    "webUrl": "https://www.goodreads.com/user/show/22102332-vensamos",
+    "contributor": null,
+    "id": 22102332
+  },
+  "User:kca://profile:goodreads/A3KDIZV40OMG0B": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A3KDIZV40OMG0B"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A3KDIZV40OMG0B\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A3KDIZV40OMG0B",
+      "id": "kca://profile:goodreads/A3KDIZV40OMG0B"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/22102332?shelf=read"
+    },
+    "taggings": [],
+    "webUrl": "https://www.goodreads.com/review/show/8069151791"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.b9jGfF9FjVOIh0dpIKZL_g": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.b9jGfF9FjVOIh0dpIKZL_g",
+    "creator": {
+      "__ref": "User:22102332"
+    },
+    "recommendFor": null,
+    "updatedAt": 1789692484647,
+    "createdAt": 1763082925040,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1763932144184,
+    "text": "This is going to be a long one, but I have sat with these thoughts for the past few days since getting an early copy, and can’t seem to let it go.<br /><br />I’ve been struggling to adequately put into context how I feel about this book. Part of my reaction might be the pain of high expectations: I read WOTM the first month it released and have been eagerly awaiting the sequel ever since. I wasn’t blind to the flaws in the first book, but I loved it wholeheartedly and was so so excited for the sequel. I told everyone who would listen that they absolutely had to read it, and Hierarchy ranked among my favorite fantasy universes ever. <br /><br />I say all this to say that I <b>wanted</b> to love this book, but the more I think about it, the lower the rating goes, partially because of how this book made me feel, and partially because of what I think are genuine issues with the manuscript. <br /><br />After reading the Strength of the Few, I discovered a few things about myself as a reader, this series in terms of goals and priorities, and left it all feeling incredibly empty. <br /><br />Subjective: 2 Stars<br />Objective (or at least my best attempt to be): 3 stars<br /><br />My non-spoiler review: <br />If you like plot, twists and turns, and don’t worry too much about the space in between, you may enjoy this. <br />If you loved the characters from Part 1, skip this one and keep your joy alive. <br /><input type=\"checkbox\" class=\"spoiler__control\" aria-label=\"The following text has been marked spoiler. Toggle checkbox to reveal or hide.\" onchange=\"this.labels[0].setAttribute('aria-hidden', !this.checked);\" id=\"9730d529-f3bb-4144-8094-93414a1ddf7a\" /><label aria-hidden=\"true\" class=\"spoiler\" for=\"9730d529-f3bb-4144-8094-93414a1ddf7a\"><br /><b>Characters</b><br /><br />Try as I might, I cannot understand what the goal was here for the various characters, new and returning. I do not understand the narrative function of certain choices, and am absolutely gutted by two choices in particular. <br /><br />I discovered through this process that I am a character focused reader. The world of the Hierarchy was and is <b>extremely</b> cool, but it was our cast from book one that really brought that world to life.<br /><br />We have a mix of cast here; returning characters, primarily in the original world Res, and new characters in the new worlds Obiteum and Luceum. <br /><br />Our new cast member from Res, Livia, is tantalizing in that she may become interesting, but fails to do much in this book. This is generally true of almost all the Obiteum and Luceum characters as well – the fact that the narrative must focus on three <i>entirely unconnected stories</i> prevent Islington from developing any new characters with much depth. As such, this new cast is unable to carry the weight of the story and we must look to our veteran characters. <br /><br />Unfortunately, that cast gets almost no development, with two disastrous exceptions. <br /><br />A major character moment and plot point was the betrayal of Vis by Emissa at the end of TWOTM. If you were hoping for drama or a deeper exploration of her motives and feelings, you will be disappointed. Vis stomps around being mad (understandably) for awhile, but when he finally speaks to her she has a perfectly logical reason for what she did, and confesses to working for Veridius in book one, but that she genuinely cares for Vis. This sounds like the stem of a complex character. It is not. We barely see her again. <br /><br />This felt like wasted potential, and begins a chilling pattern in character development. Veridius ends book one with some great cliffhangers and complex motives, but ends up taking part in only one major scene in the book, delivering to us exposition that was largely delivered by a new character on Obiteum prior. <br /><br />Ulciscor is barely present and relegated to a background character, despite the rich potential for conflict and drama based on his and Vis’ history. <br /><br />Lani has one thing to do and then gets sidelined for the entire book. So on and so forth for many characters. <br /><br />Not every character can have their time in the light, so long as some do. For the first two thirds of the book, we were in good hands here.<br /><br />The two Res characters who actually get development are Aequa, and Vis himself, including their friendship/blossoming relationship. Aequa continues her strong characterization from the first book as guarded, clever, and at times giving the impression of being aloof. However, her strengthening friendship with Vis after Book 1 lets us see a more vulnerable side of her, revealing a fiercely loyal and at times playful companion for our main character. Vis remarks on these qualities privately several times in the narrative. I cannot tip my hat enough to Islington on the dynamics of their relationship; this was some of the best chemistry I have seen between two characters in a fantasy series <b>ever</b>. <br /><br />Vis himself is a tough one. Regarding Res, I found him to be in relative stasis personality wise for the first two thirds of the book. He is angry about Callidus’ death, but doesn’t seem to be moving that plot forward with much intentionality (dude, go talk to Veridius). The end of Act II culminates in a disastrous scene where Vis is arguably responsible for the wholesale slaughter of major Hierarchy leadership, leading to death and pain on a level thus far unseen in the series. He appears to feel relatively little guilt over this. <br /><br />It goes from bad to worse with Vis making some truly heinous decisions that seem designed to set up a major villain arc. The principled young man railing against an unjust system and standing up for his friends that we saw in TWOTM is nowhere to be seen.<br /> <br />Obiteum Vis, split by the gateway at the end of the first book is largely inoffensive, though his ability to interact with others is limited because the cast is extremely small. I had no major problems with Obiteum, but nor did I feel this cast is particularly memorable. <br /><br />Luceum. Oh boy Luceum. One of Vis’ finest qualities in the first book was his agency, his drive, his sheer determination to succeed. L-Vis has none of this. He wakes up in a boat, Skyrim style, at the start of the book and is buffeted from place to place thereafter, going where people tell him and generally having no motivation to do anything of any kind. While I recognize that Vis has always yearned for safety and peace, watching O-Vis and R-Vis struggle in high stakes situations, while L-Vis chilled on a farm or attended Warrior Camp for Talented Youngsters was infuriating. His new found-family suffers from the limited page count that can be given to their story, and so they come off as one-dimensional cheap knock-offs of our cast from book one. I have to physically check the manuscript to even know their names. This includes a last minute love interest, which is such a sharp contrast to the amazing arc being developed between Vis and Aequa that I almost wonder if the latter is accidental. <br /> <br />Looking back, the majority of scenes that involve engaging characters you want to root for are R-Vis / Aequa / Eidhin moments on Res, harkening back to the absolutely extraordinary character work Islington was doing with Vis and Aequa in this novel. <br /><br />That character work would have carried this book to a four star read for me… except that Aequa is unceremoniously killed in brutally graphic fashion, in such a way as to render the resurrection mechanic introduced in this book moot. I want to be clear here that the mere fact she was the love interest isn't the reason this death tanks the rating. It is that she was one of the best characterized members of the cast, and even as she got murdered, Vis is losing all of the qualities that made <b>him</b> likeable. <br /><br />My investment in the series drained away and I spent the rest of the read with blood rushing through my ears. Vis makes a series of increasingly bad decisions after her death, but spends no real time grieving her. I guess maybe he’s shell shocked, but if so, it is not clear on the page. <br /><br />Callidus’s death in the first book was a gut punch, but it felt natural to the story. Poignant and meaningful. It taught Vis an important lesson: You can’t run forever, you have to make a stand for a better world. <br /><br />Aequa’s death seemed to serve no narrative purpose at all except to shock the reader. <br /><br />The way I would describe it is that Callidus’s death made me angry at Veridius, Emissa, and the Anguis. I wanted justice for Callidus. Aequa’s death made me mad at Islington. I want justice for the readers. <br /><br /><b>Plot</b><br /><br />The plot itself was running okay up to the end of Act II. <br /><br />Obiteum could be slow at times, but if you are into worldbuilding and lore it was good. <br /><br />Res was great – we were investigating the Anguis attack, getting some internal Hierarchy politics, and seeing Vis and Aequa’s relationship develop. I have covered the last element already, so I will just say that the Hierarchy is such a cool element of this world, and watching Vis navigate it was pure joy to read. I couldn’t wait to see him out-maneuvering senators and climbing the ranks while working to destabilize them from within and make the world a better place.<br /><br />Luceum nothing really happened in the first two acts. Nothing else to say there. <br /><br />Then we get to Act III, or more accurately the very end of Act II. <br /><br />Again, Obiteum was okay to exciting depending on the chapter, but generally moderately enjoyable. No real complaints here. <br /><br />Luceum actually starts to have stuff going on, but because the cast is so flat as mentioned previously, I have difficulty bringing myself to care about these events. <br /><br />Res. Oh boy, Res. Vis is arguably responsible for a massacre of Hierarchy leadership, kicking off a brutal civil war and giving an immediate sense of “big stuff is about to go down”. We then <b>smash cut</b> to several weeks later when the war is in full swing, and two of his friends are now with enemy armies well outside the city, while Vis has been cosplaying as Batman - but with a dash of murder - across Caten City. <br /><br />What? Excuse me? It genuinely feels like we are missing several chapters. <br /><br />Things go from bad to worse when Aequa is killed at the start of this Arc, which is followed by Vis freeing Lani and Ulciscor from prison. We only learn that Ulciscor is in the prison <b>during</b> the prison break, reflecting his absence from the narrative and the disconnected plot. Vis also consigns Relucia to a sapper, something TWOTM Vis would regard as the most unforgivable of crimes. He subsequently convinced Eidhin to defect from his army as it invades Caten, and help him contact what he believes to be the ultimate evil in an attempt to bargain. This all happens in extremely quick succession.<br /><br />Throughout this Vis doesn’t seem to feel much except exhaustion. Being numb in the moment is perhaps understandable, but I cannot fathom why Islington didn't rest for just a moment so that we could really <b>feel</b> the weight of these events with <i>Vis</i> instead of as passive readers.<br /><br />We culminate with the raising of an undead army that includes Vis’s dead mother and sister, and a Marvel End Credits moment where Callidus returns from the dead, cut to black and presumably readers cheering. <br /><br />Look, I love Callidus but his death had so much poignancy and meaning. Bringing him back cheapens that meaning immensely, and in no way makes up for the brutal murder of a character who had become a fan favorite and Vis’s closest confidante.<br /> <br />So while the big plot and world building events are interesting in isolation (Catenen Civil War, Vis’s descent into villainy, etc) the connecting tissue between those events just isn’t there. The pacing goes from slow, to absolutely breakneck. <br /><br />A note on this breakneck pace: I checked and confirmed that there are only 33 Res pages between Aequas death and the end of the book. This means that a MASSIVE amount of plot occurs in less than 5% of the page count, which I think contributes to feeling of reading an outline rather than a completed story. <br /><br />For contrast, in TWOTM there are 71 pages between Vis stepping off the boat with his team for the Iucidium, and his winning. We then get a 6 page epilogue style chapter and 2 pages of vignette for each of the other worlds. Way less happens in terms of plot development across those 81 pages, so we are able to experience the weight of these moments with the characters and feel with them. I feel that Act 3 Res suffered <b> enormously </b> from not giving readers that same opportunity here.<br /><br /><b>Overall</b><br /><br />All in all, I think this book could have been at least two, if not three books of additional content to do it justice, and the triple worlds issue simultaneously hurt all three stories. It is hard to not think of Res as the “main” story and the other two as sideshows because of all the development we got in TWOTM. This means that the book lives or dies by the strength of the Res plot and the Res characters. <br /><br />I may pick up the next book out of morbid curiosity, but I don’t care about world ending stakes when I no longer care for any of the characters that live in that world. No longer will I breathlessly check his updates on progress and eagerly tell others to read the series. I just don't have the Will.<br /><br />What I keep coming back to the most though is the reason I fell in love with the first book: A fundamentally likeable character, finding moments of joy and hope in an unjust world. A man who despite everything that has happened to him finds friends that he can rely on – and that can in turn rely on him. <br /><br />You won’t find that character here. </label>",
+    "rating": 3,
+    "preciseRating": 3,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A3KDIZV40OMG0B\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 676,
+    "viewerHasLiked": null,
+    "commentCount": 51
+  },
+  "User:168081257": {
+    "__typename": "User",
+    "legacyId": 168081257,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1746101909i/168081257._UY200_CR2,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 30,
+    "textReviewsCount": 66,
+    "name": "❥・alexi",
+    "webUrl": "https://www.goodreads.com/user/show/168081257-alexi",
+    "contributor": null,
+    "id": 168081257
+  },
+  "User:kca://profile:goodreads/A1SSCOKKXQW5CP": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A1SSCOKKXQW5CP"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A1SSCOKKXQW5CP\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A1SSCOKKXQW5CP",
+      "id": "kca://profile:goodreads/A1SSCOKKXQW5CP"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/168081257?shelf=read"
+    },
+    "taggings": [
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "dystopia-uptopia",
+          "webUrl": "https://www.goodreads.com/review/list/168081257?shelf=dystopia-uptopia"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "good-n-bad-parts",
+          "webUrl": "https://www.goodreads.com/review/list/168081257?shelf=good-n-bad-parts"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "mid",
+          "webUrl": "https://www.goodreads.com/review/list/168081257?shelf=mid"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "plotty-twisty",
+          "webUrl": "https://www.goodreads.com/review/list/168081257?shelf=plotty-twisty"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "unpopular-opinion",
+          "webUrl": "https://www.goodreads.com/review/list/168081257?shelf=unpopular-opinion"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "fantasy",
+          "webUrl": "https://www.goodreads.com/review/list/168081257?shelf=fantasy"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "wasted-potential",
+          "webUrl": "https://www.goodreads.com/review/list/168081257?shelf=wasted-potential"
+        }
+      }
+    ],
+    "webUrl": "https://www.goodreads.com/review/show/7007172276"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.wqwrz0NxRmzS_50O3I20hg": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.wqwrz0NxRmzS_50O3I20hg",
+    "creator": {
+      "__ref": "User:168081257"
+    },
+    "recommendFor": null,
+    "updatedAt": 1776716373780,
+    "createdAt": 1731691192594,
+    "spoilerStatus": true,
+    "lastRevisionAt": 1763291171244,
+    "text": "If you told me, a year ago, that I’d be writing this review in the future, I’d legitimately laugh at your face. If you asked me back before I read this, I would’ve sworn this book would be the best thing to ever happen to me. I drew fanart and wrote fanfiction and participated in countless fan theories for Book 1. Trust me, I’m just as surprised as you are.<br /><br />This book was a major step down and I’ve been miserable about it for days. This review also includes major spoilers, so read at your own risk.<br /><br />I knew the three POV switches were bound to be jarring, but they didn't necessarily have to be bad. The idea of three worlds seemed like a cool idea, but the book suffered with how Res was clearly the superior storyline and every interruption just felt like something to get through to finally read about Res again. Obiteum was acceptable enough, but Luceum was unforgivable. Not just badly written, but utterly boring.<br /><br />Luceum’s storyline with Vis was a supposed “found family” that didn’t feel as such at all. L-Vis felt like a completely different person, disregarding his previous world and settling in Luceum despite how he had been built up to be endlessly suspicious and fiercely loyal in his previous novel. And yet, two seconds in, he trusts this farm family more than his people back in Res — just like that?<br /><br />And now we are thrown what seems to be the beginnings of a romance. My review for TWOTM critiques Islington’s romance skills, but at least the Emissa situation had space to be redeemed. In TSOTF, we are given a girl named Tara.<br /><br />Tara had absolutely nothing. She is like a frankensteined version of every main female character from Book 1 but with absolutely no personality besides being the greatest fighter and having red hair. She is like Lanistia and Aequa (two amazing female characters utterly wasted in this novel) with Belli’s hair and Emissa’s structure, if formed into one singular being and given a lobotomy. <br /><br />If Islington <i> really </i> wanted to develop a reasonable romance for Vis, it easily could have been Aequa or something (as Vis had chemistry with just about every character besides his love interests). I'd say Vis had so much chemistry with her especially, all for it to be absolutely thrown to the wolves with Chapter 71 for nothing but cheap shock value. There is no good narrative purpose for her death. It could be symbolizing how there is no rest under the Hierarchy, that there is always be grief and loss where you least expect it, yada yada yada — but we already know that. We had a whole book proving that. Callidus died, Vis' family died, and we’ve learned that lesson time and time again. Aequa's death is ridiculously redundant. Not even because of 'shipping reasons'. I wouldn't have cared about romance if Islington didn't want to shoehorn one into this book.<br /> <br />Except, Callidus is presumably back at the end. This cheapens his previous death, and its original impact. Same with Vis’ family. The weight of their deaths are lifted and thrown aside. I don’t mind his family being alive, but the fact that it is written so choppily is the bigger sin. Cristoval’s presence is underused. One moment, he is there, and the next he is gone. I could forgive Cristoval's return as it was supposed to function as an emotional point of the book — but resurrecting half of the important deaths? And killing both Cristoval and Aequa at the end, anyway? Absolutely tacky. <br /><br />And now, there is no turning back from this. Even if Aequa does return in a future novel, it would confirm that her death was entirely for a cheap reaction. Just because it is surprising does not mean it is good. When Callidus died, it was sad and surprising, but it felt earned. It made sense for the story. Aequa’s death was in no means earned. As much as I’m sad that she died, that is not my issue. My issue is <i>how</i> she died. I imagine Islington was trying to utilize a clever writing tool to evoke the feeling of Vis’ shock and helplessness by letting the scene whirl past, but in the end it does not seem so. We never see Vis process this. I imagine this is supposed to drive him into a new arc, one of a darker path, but it is so different from the original promised storyline that it ends up feeling forced.<br /><br />In this book, because of the three worlds and narratives we have to follow, the characters and storylines we are promised in Book 1 take a complete backseat. There is hardly any good use of the cast from Book 1 except Aequa, only for her to be axed later on. Lanistia, Ulciscor, Veridius, Eidhin, the Hierarchy, the Academy, Caten in general, how the civil war breaks out — where are they except for a few scenes and throwaway lines? Their narratives go into a halt so we can read about L-Vis and his new forced farm family. Vis’ new friends in Luceum don’t feel like characters. They feel like vessels with names, or pieces of cardboard to prop him up. Why Vis trusts them immediately — I have absolutely no idea. It is incredible how out of character Vis felt. It’s another level of galaxy brain to hit jackpot with your first book and absolutely fumble the next to the point where you've written your own main character so off-putting it feels like a prank.<br /><br />In the first book, the magic system is unique and clever. ‘Will’ was an amazing idea, and I’ve mentioned that in my first review. But with the expansion of new worlds and random new mechanics, we hardly have room to for explanation as we have to jump from POV to POV. Now, so many ideas are thrown in. At least with Will, there were clear limitations. Now, with this and that change thrown at your face — <i> and whatever “harmonics” do</i> — it is no longer structured. The new magic system is now whatever hocus pocus is most convenient to Vis for the next couple scenes. Instead of letting the magic system develop with the reader over time, we are hindered by the three storylines, and to make up for the lack of explanation we are thrown at bricks of text and info-dump that are slogs to read through — and they don’t ever even make sense in proper hindsight, anyway. Again, tacky!<br /><br />I really wanted to be optimistic when I first saw a review stating that TSOTF is not a good book for the female characters’ development, but I’m sorry to say that it was absolutely correct. The only female characters with personalities are either pushed behind or killed off. If you thought Emissa was annoying in book one, like I did, watch how all her potential is wasted over here. Tara's character is so awful it makes Emissa somehow look cool. At least Emissa could’ve been redeemed later on with a personality. (Not that we were given a personality for Emissa later on.) But frankly, Tara manages to be worse, because while Emissa’s writing in TWOTM could be excused as clever foreshadowing, Tara makes it clear that James Islington is just absolutely horrible at writing romance. Tara is nothing but your local Hot &amp; Tiny &amp; Strong WomanTM. She has red hair and is feisty and is never weak. She reads like somebody's badly written self insert. Of course, L-Vis likes her. <br /><br />I genuinely don't believe Islington is capable of writing a decent romance, so why should he include one? There's no actual reason. I'd be very fine if this whole series didn't have it. Vis has enough to deal with, as is. <br /><br />Since we are dealing with three storylines, we cannot follow all of them properly. There are far too many gaps in time thrown at us, and the reader is forced to fill in the blanks where the author no longer has room for proper development. <br /><br />How did the early readers grace this book with so many glowing reviews? I’m genuinely shattered with my disappointment. This series went from my all-time favourite to my biggest gripe.<br /><br /><br />-<br /><br /><i> post-read 11 / 12 / 2025 : </i><br /><br />oh. <br /><br />-<br /><i> pre-read 2024 : </i><br /><br /> whoever gets an early copy of this book will immediately be on my rob list",
+    "rating": 3,
+    "preciseRating": 3,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A1SSCOKKXQW5CP\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 1025,
+    "viewerHasLiked": null,
+    "commentCount": 120
+  },
+  "User:113964939": {
+    "__typename": "User",
+    "legacyId": 113964939,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1732144665i/113964939._UX200_CR0,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 171899,
+    "textReviewsCount": 185,
+    "name": "Sara Carrolli",
+    "webUrl": "https://www.goodreads.com/user/show/113964939-sara-carrolli",
+    "contributor": null,
+    "id": 113964939
+  },
+  "User:kca://profile:goodreads/A3SRPFORWJVBOK": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A3SRPFORWJVBOK"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A3SRPFORWJVBOK\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A3SRPFORWJVBOK",
+      "id": "kca://profile:goodreads/A3SRPFORWJVBOK"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/113964939?shelf=read"
+    },
+    "taggings": [],
+    "webUrl": "https://www.goodreads.com/review/show/8154752968"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.NUjjl4ajCo3kxzuSPr6Dcw": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.NUjjl4ajCo3kxzuSPr6Dcw",
+    "creator": {
+      "__ref": "User:113964939"
+    },
+    "recommendFor": null,
+    "updatedAt": 1774643204157,
+    "createdAt": 1770158813809,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1770159087738,
+    "text": "After rating the first books 5 ⭐️ (unheard of and equally as exciting bc I haven’t been loving fantasy lately), I was so excited for the second book!!!<br /><br />This one REALLY expands the world we learn about in the first book (and although I loved that) it was extremely confusing &amp; slow pacing 😭 Lots of terms and settings got mixed up in my mind, but other than that I love being in this world and learning more about it! It’s so exhilarating &amp; you literally have no idea where it’s gonna go<br /><br />The ending of course had me gasping so I can’t wait for the third book!!! (Even thought that’ll be in a few years 🫠) ",
+    "rating": 4,
+    "preciseRating": 4,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A3SRPFORWJVBOK\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 858,
+    "viewerHasLiked": null,
+    "commentCount": 10
+  },
+  "User:58160628": {
+    "__typename": "User",
+    "legacyId": 58160628,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1629292612i/58160628._UY200_CR27,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 73092,
+    "textReviewsCount": 652,
+    "name": "Emily (Books with Emily Fox on Youtube)",
+    "webUrl": "https://www.goodreads.com/user/show/58160628-emily-books-with-emily-fox-on-youtube",
+    "contributor": null,
+    "id": 58160628
+  },
+  "User:kca://profile:goodreads/A1BS1G8KPU0GNG": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A1BS1G8KPU0GNG"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A1BS1G8KPU0GNG\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A1BS1G8KPU0GNG",
+      "id": "kca://profile:goodreads/A1BS1G8KPU0GNG"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/58160628?shelf=read"
+    },
+    "taggings": [
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "2025-releases",
+          "webUrl": "https://www.goodreads.com/review/list/58160628?shelf=2025-releases"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "arc",
+          "webUrl": "https://www.goodreads.com/review/list/58160628?shelf=arc"
+        }
+      }
+    ],
+    "webUrl": "https://www.goodreads.com/review/show/6271443731"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.jK0lqwHCeWOTJ8so_aisIg": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.jK0lqwHCeWOTJ8so_aisIg",
+    "creator": {
+      "__ref": "User:58160628"
+    },
+    "recommendFor": null,
+    "updatedAt": 1763230439618,
+    "createdAt": 1708216307882,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1763230439618,
+    "text": "This is quickly becoming an all time favorite series.<br />READ IT",
+    "rating": 5,
+    "preciseRating": 5,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A1BS1G8KPU0GNG\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 1966,
+    "viewerHasLiked": null,
+    "commentCount": 22
+  },
+  "User:11181050": {
+    "__typename": "User",
+    "legacyId": 11181050,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1643153184i/11181050._UX200_CR0,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 338,
+    "textReviewsCount": 67,
+    "name": "Eric",
+    "webUrl": "https://www.goodreads.com/user/show/11181050-eric",
+    "contributor": null,
+    "id": 11181050
+  },
+  "User:kca://profile:goodreads/A16YA3XWHPGV5H": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A16YA3XWHPGV5H"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A16YA3XWHPGV5H\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A16YA3XWHPGV5H",
+      "id": "kca://profile:goodreads/A16YA3XWHPGV5H"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/11181050?shelf=read"
+    },
+    "taggings": [],
+    "webUrl": "https://www.goodreads.com/review/show/6795293436"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.mKl_h3H8YkEJoVYicKca_Q": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.mKl_h3H8YkEJoVYicKca_Q",
+    "creator": {
+      "__ref": "User:11181050"
+    },
+    "recommendFor": null,
+    "updatedAt": 1791250447785,
+    "createdAt": 1753320671844,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1791250447785,
+    "text": "James Islington you sick son of a bitch someone get me a cigarette",
+    "rating": 4,
+    "preciseRating": 4.5,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A16YA3XWHPGV5H\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 1657,
+    "viewerHasLiked": null,
+    "commentCount": 22
+  },
+  "User:38288957": {
+    "__typename": "User",
+    "legacyId": 38288957,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1719265108i/38288957._UX200_CR0,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 15172,
+    "textReviewsCount": 90,
+    "name": "Smitty1423",
+    "webUrl": "https://www.goodreads.com/user/show/38288957-smitty1423",
+    "contributor": null,
+    "id": 38288957
+  },
+  "User:kca://profile:goodreads/ASTRI2Y3Z5ED9": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/ASTRI2Y3Z5ED9"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/ASTRI2Y3Z5ED9\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/ASTRI2Y3Z5ED9",
+      "id": "kca://profile:goodreads/ASTRI2Y3Z5ED9"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/38288957?shelf=read"
+    },
+    "taggings": [],
+    "webUrl": "https://www.goodreads.com/review/show/7847349942"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.heVB77Z4LyEMtlxH0Y7xEQ": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.heVB77Z4LyEMtlxH0Y7xEQ",
+    "creator": {
+      "__ref": "User:38288957"
+    },
+    "recommendFor": null,
+    "updatedAt": 1791778582922,
+    "createdAt": 1756944493769,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1756944577171,
+    "text": "This is will honestly be one of the best books you read this year. I won’t spoil it since I got this as an ARC. Someone remind me in November after it’s out for a few weeks to go more into detail.<br /><br />The anticipation was lived up to tho….",
+    "rating": 5,
+    "preciseRating": 5,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/ASTRI2Y3Z5ED9\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 580,
+    "viewerHasLiked": null,
+    "commentCount": 16
+  },
+  "User:159685169": {
+    "__typename": "User",
+    "legacyId": 159685169,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1771478503i/159685169._UX200_CR0,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 13399,
+    "textReviewsCount": 360,
+    "name": "Maddie Fisher",
+    "webUrl": "https://www.goodreads.com/user/show/159685169-maddie-fisher",
+    "contributor": null,
+    "id": 159685169
+  },
+  "User:kca://profile:goodreads/AM2XWNW0XACBU": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/AM2XWNW0XACBU"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/AM2XWNW0XACBU\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/AM2XWNW0XACBU",
+      "id": "kca://profile:goodreads/AM2XWNW0XACBU"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/159685169?shelf=read"
+    },
+    "taggings": [
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "fantasy-highfantasy",
+          "webUrl": "https://www.goodreads.com/review/list/159685169?shelf=fantasy-highfantasy"
+        }
+      }
+    ],
+    "webUrl": "https://www.goodreads.com/review/show/8066733334"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.CFfKQRBUtYfvucAelHjAEQ": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.CFfKQRBUtYfvucAelHjAEQ",
+    "creator": {
+      "__ref": "User:159685169"
+    },
+    "recommendFor": null,
+    "updatedAt": 1791460033081,
+    "createdAt": 1763587291524,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1763587297021,
+    "text": "RATING BREAKDOWN<br />Characters: 4⭐️<br />Setting: 5⭐️<br />Plot: 4⭐️<br />Themes: 5⭐️<br />Emotional Impact: 5⭐️<br />Personal Enjoyment: 5⭐️<br />Total Rounded Average: 4.75⭐️<br /><br />This book has solidified James Islington as one of the most original high fantasy writers working today. The places he takes his magic system and setting are uncharted territory, which I mean as the highest compliment, considering we're working in a speculative genre full of imagination and originality. This one doesn't feel like anything else!<br /><br />While I found The Will of the Many to be extremely accessible, consistently paced, and tightly written, The Strength of the View is expansive, increasingly complex, and more mysterious. Readers who loved the clarity, manageable scope, and familiar devices and tropes of book one will be challenged by The Strength of the Few. The natural consequence of an author doing something new is that the reader has to trust much more. Pacing will vary, and it won't always be clear where the story is going or why the current pages are important. This is where, having read Islington's other work, I lean into the trust he's earned, and enjoy the ride. This is by no means as challenging or complex as fantasy gets, but it is a step up from book one. <br /><br />Specifically, the setting of this book is wild! It's hard to really analyze without spoiling The Will of the Many. Suffice it to say, the multi-setting of this novel explores something I've never seen for characters in sci-fi. The theme of nature vs. nurture is not new, but what happens when the three points of view have, for all intents and purposes, the same nature and nurture, up to a certain point; and then the environment, nurturing, and information become extremely different for each? What differences then emerge in the characters? What relationships and loyalties form? How is duty defined? In what ways does morality change, get redefined, and become compromised? All of this is explored through three distinct lenses, making what was a single-point-of-view story in book one, now a multi-pov story! Absolutely brilliant. The settings are all so distinctive with language, technology, use of Will, natural hazards, politics, and customs. I found myself particularly drawn to Luceum.<br /><br />The plot has completely escalated from The Will of the Many, and the stakes and scope have increased exponentially. As with book one, I finished book two with so many questions! Each book feels earned because there is intentional setup, foreshadowing, and mystery. Here, the pacing suffered slightly compared to The Will of the Many, due to scope. There are time jumps that feel necessary to accomplish what needs to be done in this volume, but I don't feel as attached to certain friendships as I did in The Will of the Many because the page time isn't as devoted to the new characters. That said, I was gripped in each section, invested in the stakes, and watching everything escalate with massive stress and anxiety.<br /><br />Thematically, Islington plays in the morality sandbox like a pro. As stakes escalate and the impacts become more complex, lines are crossed and compromises are made. This, more than anything, brings this series properly into the adult fantasy space, where readers can wrestle with nuanced questions and ambiguity. I am so invested and perplexed right along with the characters. These decisions aren't simple. I am also emotionally invested. I shed tears while reading this installment, felt shock, horror, betrayal, and ultimately a foreboding and dread as I anticipate book three! <br /><br />Overall, I had an amazing time. Strength of the Few delivered on the promise of The Will of the Many, bringing the series into a new realm of possibility, complexity, originality, and scope. If I could wish for anything as the series progresses, it's a few more deep character moments and conversations, some more finesse in pacing as Islington balances the points of view, and clear consequences for the hard choices that are being made. I would also wish for a few less of my favorite characters to die, but also, I'm obsessed with Islington's merciless writing, so maybe don't spare them, but also maybe do because I'm getting very attached!<br /><br />My most anticipated release of the year and I really loved it.",
+    "rating": 5,
+    "preciseRating": 5,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/AM2XWNW0XACBU\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 527,
+    "viewerHasLiked": null,
+    "commentCount": 6
+  },
+  "User:127632948": {
+    "__typename": "User",
+    "legacyId": 127632948,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1729856926i/127632948._UX200_CR0,25,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 3636,
+    "textReviewsCount": 921,
+    "name": "Clace ",
+    "webUrl": "https://www.goodreads.com/user/show/127632948-clace",
+    "contributor": null,
+    "id": 127632948
+  },
+  "User:kca://profile:goodreads/A5AXPSHC1RMFP": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A5AXPSHC1RMFP"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A5AXPSHC1RMFP\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A5AXPSHC1RMFP",
+      "id": "kca://profile:goodreads/A5AXPSHC1RMFP"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "to-read",
+      "displayName": "Want to Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_wtr",
+      "sortOrder": 0,
+      "webUrl": "https://www.goodreads.com/review/list/127632948?shelf=to-read"
+    },
+    "taggings": [],
+    "webUrl": "https://www.goodreads.com/review/show/5824690873"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.-iMcvN9ZtJCYxc3AGS-auA": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.-iMcvN9ZtJCYxc3AGS-auA",
+    "creator": {
+      "__ref": "User:127632948"
+    },
+    "recommendFor": null,
+    "updatedAt": 1790444538575,
+    "createdAt": 1694034456285,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1708715502599,
+    "text": "Please come out by the start of next year😭 I can't afford to forget things from the previous book! That being said this will definitely be my most anticipated release of next year!",
+    "rating": 0,
+    "preciseRating": 0,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A5AXPSHC1RMFP\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 321,
+    "viewerHasLiked": null,
+    "commentCount": 6
+  },
+  "User:1237392": {
+    "__typename": "User",
+    "legacyId": 1237392,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1517335644i/1237392._UY200_CR77,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 4,
+    "textReviewsCount": 502,
+    "name": "N",
+    "webUrl": "https://www.goodreads.com/user/show/1237392-n",
+    "contributor": null,
+    "id": 1237392
+  },
+  "User:kca://profile:goodreads/A3OQ90OH4UU4YZ": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A3OQ90OH4UU4YZ"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A3OQ90OH4UU4YZ\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A3OQ90OH4UU4YZ",
+      "id": "kca://profile:goodreads/A3OQ90OH4UU4YZ"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "to-read",
+      "displayName": "Want to Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_wtr",
+      "sortOrder": 0,
+      "webUrl": "https://www.goodreads.com/review/list/1237392?shelf=to-read"
+    },
+    "taggings": [],
+    "webUrl": "https://www.goodreads.com/review/show/5706216924"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.GAnNXN2ikCE9VvAXV_RZrQ": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.GAnNXN2ikCE9VvAXV_RZrQ",
+    "creator": {
+      "__ref": "User:1237392"
+    },
+    "recommendFor": null,
+    "updatedAt": 1785271869442,
+    "createdAt": 1689833052016,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1690151429522,
+    "text": "I've never wanted a sequel this badly. And yet, I'm dreading the sequel too because then I'll have to wait again. I need the finished series in my life yesterday.",
+    "rating": 0,
+    "preciseRating": 0,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A3OQ90OH4UU4YZ\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 270,
+    "viewerHasLiked": null,
+    "commentCount": 3
+  },
+  "User:169128945": {
+    "__typename": "User",
+    "legacyId": 169128945,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1781627409i/169128945._UX200_CR0,94,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 489,
+    "textReviewsCount": 950,
+    "name": "Youssra {very busy-review slumping}",
+    "webUrl": "https://www.goodreads.com/user/show/169128945-youssra-very-busy-review-slumping",
+    "contributor": null,
+    "id": 169128945
+  },
+  "User:kca://profile:goodreads/AM9LAAIQ34E3L": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/AM9LAAIQ34E3L"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/AM9LAAIQ34E3L\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/AM9LAAIQ34E3L",
+      "id": "kca://profile:goodreads/AM9LAAIQ34E3L"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/169128945?shelf=read"
+    },
+    "taggings": [
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "dystopian",
+          "webUrl": "https://www.goodreads.com/review/list/169128945?shelf=dystopian"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "fantasy",
+          "webUrl": "https://www.goodreads.com/review/list/169128945?shelf=fantasy"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "made-me-cry",
+          "webUrl": "https://www.goodreads.com/review/list/169128945?shelf=made-me-cry"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "must-read",
+          "webUrl": "https://www.goodreads.com/review/list/169128945?shelf=must-read"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "sci-fi",
+          "webUrl": "https://www.goodreads.com/review/list/169128945?shelf=sci-fi"
+        }
+      }
+    ],
+    "webUrl": "https://www.goodreads.com/review/show/6162532633"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.9rB8Y0ZKi2w0tiSc5QvaAg": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.9rB8Y0ZKi2w0tiSc5QvaAg",
+    "creator": {
+      "__ref": "User:169128945"
+    },
+    "recommendFor": null,
+    "updatedAt": 1789496819597,
+    "createdAt": 1743489745453,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1774031405318,
+    "text": "<b> \"The only thing you can control is your attitude.\" </b><br /><br /><b> \"A man is ultimately judged by his choices, not his intentions.\" </b><br /><br /><br />My brain is scrambled in the best possible way 🙌🙌<br /><br />This was one of my most anticipated books of 2025 and it definitely did not disappoint! It will be very hard to review this book without spoilers, especially for book 1 so I will be as vague as possible 😅<br /><br />📚 There are books you read where you don't really use all of your brain power and that is so needed sometimes because we do use books to escape and just have fun. This book though? You have to be 1000% locked in because if you miss any detail, you miss a lot! Every little thing that happens matters, if not now then later on in the book or even in the books later on. This may make the book seem daunting, but it makes reading, experiencing and finishing the book all the more satisfying imo. I legit feel like I won a marathon😅🏅<br /><br />🏛️ When I think of just how much planning and thought went into this book and entire series actually, it gives me a headache and lowkey makes me feel so dumb because how??? How does one come up with these ideas and then just plans it out that far ahead?? I can barely meal prep for a week and it never even works out💀 Hats off to James and his big brain 🧠 <br /><br />👤👤👤 The multi pov element in this book was outstanding. It was so unique and I don't know if there is any other book that has had a similar element. I mean maybe there is, but if it does exist, I haven't read it🤷‍♀️ No pov got more attention than the other and they were so well done with little hints and clues sprinkled throughout that you couldn't help but keep going. Each pov was almost like.. a new mini arc but they were all still connected under the same main arc if that makes sense. (trying so hard not to spoil here guys😅)<br /><br />💝 The characters in this book were so well done as well!! The found families in here are EVERYTHINGGGG, and Diago the Alupi must be protected at all costs, YOU HEAR ME JAMES??? NO HARM MUST COME TO THIS WOLF😭😭😭 Vis was really tested in this book, like he went through it in so many ways, back and forth, left and right, upside down and righside up and literally everywhere in between😅 I was legit hanging on to tiny moments of joy for DEAR LIFE😅 I cried, I laughed and gasped so many timessssss, it was such a wonderful rollercoaster😭<br />(side not, this was very AOT coded and this series will never release me from its clutches I fear it is everywhere😭)<br /><br /><br />⋆.˚🫂༘⋆ Buddy reading this with <a href=\"https://www.goodreads.com/user/show/176811711-cherie--\" rel=\"nofollow noopener\"> Cherie </a> made this even better! As she said in her review, she asked me a lot of questions, WHICH I LOVED, because it not only drew my attention to some things I missed, made me understand things better, but it also just made the book more fun! What's better than yapping about books and making wild theories with friends?? That's right, nothing😌 <br /><br /><br />P.S. voting for this as best fantasy before reading it was most definitely the right call😅",
+    "rating": 5,
+    "preciseRating": 5,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/AM9LAAIQ34E3L\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 230,
+    "viewerHasLiked": null,
+    "commentCount": 80
+  },
+  "User:149017727": {
+    "__typename": "User",
+    "legacyId": 149017727,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1704742991i/149017727._UX200_CR0,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 7733,
+    "textReviewsCount": 396,
+    "name": "Jaime Fok",
+    "webUrl": "https://www.goodreads.com/user/show/149017727-jaime-fok",
+    "contributor": null,
+    "id": 149017727
+  },
+  "User:kca://profile:goodreads/A1O69T42SACFTY": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A1O69T42SACFTY"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A1O69T42SACFTY\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A1O69T42SACFTY",
+      "id": "kca://profile:goodreads/A1O69T42SACFTY"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/149017727?shelf=read"
+    },
+    "taggings": [],
+    "webUrl": "https://www.goodreads.com/review/show/6934851193"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.Rz9zBn-OMEv22X8OJGVYmA": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.Rz9zBn-OMEv22X8OJGVYmA",
+    "creator": {
+      "__ref": "User:149017727"
+    },
+    "recommendFor": null,
+    "updatedAt": 1791472193460,
+    "createdAt": 1763071143170,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1791472193460,
+    "text": "4.5<br /><br />This was AMBITIOUS... and one of my most anticipated reads of this year. But I am impressed. <br />Now, it's going to be difficult to talk about this book without *vague* spoilers from the first book - so if you haven't read the first book... now is your time to look away.<br /><br />I was SO intrigued at how we were going to build the structure of this book, and James Islington did a wonderful job with this unique multi-POV setup! I was scared that it would be confusing switching back and forth, but I didn't feel any struggles with this while reading. I also LOVED how different the worlds felt, pulling inspiration from real culture and history. And also really appreciated seeing the differences in Vis' character(s) as we watched his paths diverge. As he experienced and learned different things, his priorities changed and I loved the exploration into that.<br /><br />The only reason this isn't a full 5-star for me is purely pacing issues. I found we started off really strong, then lost our flow a bit in the first half, and picked it back up in the second half. With the 3 timelines taking such different paths at different times as well, I found some of the jumping back and forth blocked the overall flow of the story. <br /><br />Outside of that, LOVED. I can't believe he actually managed to pull this off... I am so impressed 😂",
+    "rating": 4,
+    "preciseRating": 4.5,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A1O69T42SACFTY\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 227,
+    "viewerHasLiked": null,
+    "commentCount": 4
+  },
+  "User:3030788": {
+    "__typename": "User",
+    "legacyId": 3030788,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1767299101i/3030788._UX200_CR0,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 102700,
+    "textReviewsCount": 1240,
+    "name": "Melanie (meltotheany)",
+    "webUrl": "https://www.goodreads.com/user/show/3030788-melanie-meltotheany",
+    "contributor": null,
+    "id": 3030788
+  },
+  "User:kca://profile:goodreads/A3EJICM31LJX44": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A3EJICM31LJX44"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A3EJICM31LJX44\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A3EJICM31LJX44",
+      "id": "kca://profile:goodreads/A3EJICM31LJX44"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/3030788?shelf=read"
+    },
+    "taggings": [
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "adult",
+          "webUrl": "https://www.goodreads.com/review/list/3030788?shelf=adult"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "fantasy",
+          "webUrl": "https://www.goodreads.com/review/list/3030788?shelf=fantasy"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "read-in-2025",
+          "webUrl": "https://www.goodreads.com/review/list/3030788?shelf=read-in-2025"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "sci-fi",
+          "webUrl": "https://www.goodreads.com/review/list/3030788?shelf=sci-fi"
+        }
+      }
+    ],
+    "webUrl": "https://www.goodreads.com/review/show/6133637072"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.2sceaZbczuB0q6jJ0Cbcmw": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.2sceaZbczuB0q6jJ0Cbcmw",
+    "creator": {
+      "__ref": "User:3030788"
+    },
+    "recommendFor": null,
+    "updatedAt": 1792314686436,
+    "createdAt": 1704495875563,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1767676140574,
+    "text": "1.) <a href=\"https://www.goodreads.com/review/show/5682286566\" rel=\"nofollow noopener\">The Will of the Many</a> ★★★★★<br /><br />i do fear that writing this review is starting to feel like a dark cloud is just hovering over me, and i think that’s mostly because of the more time i allow to pass, the more this might feel like a two star from me. without question, this was my most disappointing read of 2025. and i truly don’t even know what to say, because even talking about the three different stories going on within these pages, will ruin the perfection that is the ending of <a href=\"https://www.goodreads.com/review/show/5682286566\" rel=\"nofollow noopener\">the will of the many</a>. but i feel like that split in story for this second book just did not work for me, and was the reason this was so lackluster. ah friends, i’m so sorry, but there are so many reviews out there, both loving and not loving this one, that i think i am just going to attempt to be extremely vague and move on from this entire disappointing reading experience. <br /><br />R - hands down my favorite. aequa truly made this entire book for me. yet, i really didn’t like the ending, and it felt like a pale shadow in comparison to the perfection of a cliffhanger that was at the end of book one. <br /><br />O - so slow and dare i say boring. there was potential here, but it never manifested into being enjoyable for me to read. and i always wanted to get back to R. <br /><br />L - i should have known from the skyrim start &gt;.&lt; for sure the least developed and my least favorite. <br /><br />and because of the book being split up like this, and only one of the three being exciting for me to read, well… it just leads to a really lackluster reading experience. i am not sure if i will continue on to book three, especially if this really is going to be a quartet now. but maybe if all of my friends are loving it, then i will get fomo and maybe i will be convinced to read on! but truly with the way everything ended in this book, i really have no desire as of now. <br /><br /><b>trigger + content warnings:</b> blood, mass murder, violence, gore, loss of loved ones, grief, murder, death, fire, vomit, slavery, torture, nightmares, ableism (in a negative light), war, battle, talk of sa threat, human trafficking, human experimentation, depression, hurt animal (wolf), contaminated water, claustrophobic feeling scenes",
+    "rating": 3,
+    "preciseRating": 3,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A3EJICM31LJX44\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 225,
+    "viewerHasLiked": null,
+    "commentCount": 10
+  },
+  "User:10942030": {
+    "__typename": "User",
+    "legacyId": 10942030,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1703221633i/10942030._UX200_CR0,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 1981,
+    "textReviewsCount": 128,
+    "name": "Tori",
+    "webUrl": "https://www.goodreads.com/user/show/10942030-tori",
+    "contributor": null,
+    "id": 10942030
+  },
+  "User:kca://profile:goodreads/A2SV9OCIY0KOFD": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A2SV9OCIY0KOFD"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A2SV9OCIY0KOFD\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A2SV9OCIY0KOFD",
+      "id": "kca://profile:goodreads/A2SV9OCIY0KOFD"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/10942030?shelf=read"
+    },
+    "taggings": [
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "fantasy",
+          "webUrl": "https://www.goodreads.com/review/list/10942030?shelf=fantasy"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "tomes",
+          "webUrl": "https://www.goodreads.com/review/list/10942030?shelf=tomes"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "sff-favorites",
+          "webUrl": "https://www.goodreads.com/review/list/10942030?shelf=sff-favorites"
+        }
+      }
+    ],
+    "webUrl": "https://www.goodreads.com/review/show/7839543043"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.UMS-NdRdzE2wRXtYtYBbTQ": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.UMS-NdRdzE2wRXtYtYBbTQ",
+    "creator": {
+      "__ref": "User:10942030"
+    },
+    "recommendFor": null,
+    "updatedAt": 1790664788604,
+    "createdAt": 1755515173889,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1758289205106,
+    "text": "The Strength of the Few is an extremely ambitious, yet enjoyable sequel that’s trying to juggle a lot, sometimes at a cost to the secondary characters and the pacing. The books starts immediately after the end of The Will of the Many, and there’s strong momentum for the first couple hundred pages as we’re introduced to new cultures, a large cast of new characters, and as the world and the problems from book 1 continue to expand. <br /><br />The level of world building in this sequel is where Islington really shines, and the new locations and cultures were some of my favorite elements in this book. The momentum soon begins to fizzle, though, as the pacing takes a big hit and some of the more important narrative threads and conversations become increasingly convoluted. The Strength of the Few is a strong follow up to TWOTM that fans like myself will really enjoy, and I think it nicely sets up book 3, but it’s a sequel that doesn’t entirely manage to avoid some growing pains.",
+    "rating": 4,
+    "preciseRating": 4,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A2SV9OCIY0KOFD\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 217,
+    "viewerHasLiked": null,
+    "commentCount": 0
+  },
+  "User:28365883": {
+    "__typename": "User",
+    "legacyId": 28365883,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1731123427i/28365883._UX200_CR0,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 15224,
+    "textReviewsCount": 773,
+    "name": "Elizabeth (Plant Based Bride)",
+    "webUrl": "https://www.goodreads.com/user/show/28365883-elizabeth-plant-based-bride",
+    "contributor": null,
+    "id": 28365883
+  },
+  "User:kca://profile:goodreads/A318QN7Q3B2VK1": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A318QN7Q3B2VK1"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A318QN7Q3B2VK1\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A318QN7Q3B2VK1",
+      "id": "kca://profile:goodreads/A318QN7Q3B2VK1"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE",
+      "id": "kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/28365883?shelf=read"
+    },
+    "taggings": [],
+    "webUrl": "https://www.goodreads.com/review/show/8073710847"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.X1hKHWiLVfWrwGgbnMWWCQ": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.X1hKHWiLVfWrwGgbnMWWCQ",
+    "creator": {
+      "__ref": "User:28365883"
+    },
+    "recommendFor": null,
+    "updatedAt": 1791850550486,
+    "createdAt": 1763874013751,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1767574777219,
+    "text": "I’ll be the one to say it… this was a major disappointment. <br /><br />Read for my new reading vlog: <a target=\"_blank\" rel=\"noopener nofollow\" href=\"https://youtu.be/N6oRV13TQYc\">https://youtu.be/N6oRV13TQYc</a> <br /><br />Written review to come!",
+    "rating": 2,
+    "preciseRating": 2,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A318QN7Q3B2VK1\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE\"}}"
+    },
+    "likeCount": 208,
+    "viewerHasLiked": null,
+    "commentCount": 12
+  },
+  "User:176811711": {
+    "__typename": "User",
+    "legacyId": 176811711,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1765649964i/176811711._UX200_CR0,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 1665,
+    "textReviewsCount": 231,
+    "name": "cherie ^_-★",
+    "webUrl": "https://www.goodreads.com/user/show/176811711-cherie--",
+    "contributor": null,
+    "id": 176811711
+  },
+  "User:kca://profile:goodreads/A987L7FFC5BC4": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A987L7FFC5BC4"
+  },
+  "Book:kca://book/amzn1.gr.book.v3.bQXLNlulRbtI7y1S": {
+    "__typename": "Book",
+    "id": "kca://book/amzn1.gr.book.v3.bQXLNlulRbtI7y1S"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A987L7FFC5BC4\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.bQXLNlulRbtI7y1S\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A987L7FFC5BC4",
+      "id": "kca://profile:goodreads/A987L7FFC5BC4"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.bQXLNlulRbtI7y1S",
+      "id": "kca://book/amzn1.gr.book.v3.bQXLNlulRbtI7y1S"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/176811711?shelf=read"
+    },
+    "taggings": [
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "2025-releases",
+          "webUrl": "https://www.goodreads.com/review/list/176811711?shelf=2025-releases"
+        }
+      }
+    ],
+    "webUrl": "https://www.goodreads.com/review/show/8021800936"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.VjV1Ou7f7w61zbZzolkJug": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.VjV1Ou7f7w61zbZzolkJug",
+    "creator": {
+      "__ref": "User:176811711"
+    },
+    "recommendFor": null,
+    "updatedAt": 1784827846987,
+    "createdAt": 1762919827154,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1764517992399,
+    "text": "<b>4 stars ⭐</b><br />⤷ spoiler-free review!! ⋆౨ৎ˚⟡˖ ࣪<br /><br /><b>\n  <i>“The needs of the many will always be loud. But in the end, it is only the strength of the few that matters.”</i>\n</b><br /><br />ˏˋ°•*⁀➷ <b>my thoughts</b><br />wow, what a journey 😮‍💨 it honestly felt like i’d been reading this book for a whole month, even though it was only 8 days. despite that, i genuinely had such a great time with it. the multiple povs were brilliant, and this book was action-packed from start to finish—i didn’t miss a single day of reading no matter how tired i was, simply because i was so invested and needed to know what happened next. was i still confused at times, the same way i was while reading book 1? oh absolutely! as someone who rarely reads epic fantasy and doesn’t really use her brain while reading, this drained every last bit of brain power i had. but i <i>think</i> i grasped things a little better this time…? or not 🤣 the plot twists completely got me—idk why i didn’t see them coming (okay who am i kidding? we all know why 🤣)—and i adored the friendships and found families 🥹<br /><br />anyway, poor vis was really going through it 😭 he suffered almost the entire book and my heart broke for him over and over again 😭 the way he kept pushing on, refusing to give up no matter what, made everything hurt even more 😭 some chapters were <i>brutal</i> and i actually had to pause and take a breather. Youssra and i kept saying how much he reminded us of eren yeager, and ngl, the whole book was giving major aot vibes (i fear aot will haunt us forever 😭❤️‍🩹).<br /><br />the ending, however, was a little underwhelming for me—not because it was bad, but because i was expecting so much more. it ended so abruptly 😭 like wdym it ended <i>just like that</i>?! i picked this book up hoping for answers, but it left me with even more questions 😭 now we’ll probably have to wait another 2 years for the next book and i definitely won’t remember a single thing by then 😭 but overall, this was a really good read and i’m already looking forward to buddy reading book 3 with Youssra.<br /><br />speaking of Youssra, a huge shoutout to my bestie for reading this with me 💖 i honestly wouldn’t have enjoyed or understood this book as much as i did without her (i asked her a billion questions 🤣😭 and her being the absolute angel she is, she answered every single one 🥺).<br /><br />ˏˋ°•*⁀➷ <b>hierarchy</b><br />♡.ᐟ the will of the many (<a href=\"https://www.goodreads.com/review/show/7690747765\" rel=\"nofollow noopener\">3.5 ⭐</a>)<br />♡.ᐟ the strength of the few (4 ⭐)<br /><br />────────── ⋆⋅<b>end</b>⋅⋆ ──────────<br /><br /><b>pre-read</b><br />starting this as soon as <a href=\"https://www.goodreads.com/user/show/169128945-youssra-semi-ia\" rel=\"nofollow noopener\">Youssra</a> gets her hands on the audiobook!",
+    "rating": 4,
+    "preciseRating": 4,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A987L7FFC5BC4\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.bQXLNlulRbtI7y1S\"}}"
+    },
+    "likeCount": 208,
+    "viewerHasLiked": null,
+    "commentCount": 122
+  },
+  "User:52826337": {
+    "__typename": "User",
+    "legacyId": 52826337,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1589479515i/52826337._UX200_CR0,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 6,
+    "textReviewsCount": 1323,
+    "name": "Maja",
+    "webUrl": "https://www.goodreads.com/user/show/52826337-maja",
+    "contributor": null,
+    "id": 52826337
+  },
+  "User:kca://profile:goodreads/A3JRUSIS9L5KFX": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A3JRUSIS9L5KFX"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A3JRUSIS9L5KFX\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A3JRUSIS9L5KFX",
+      "id": "kca://profile:goodreads/A3JRUSIS9L5KFX"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/52826337?shelf=read"
+    },
+    "taggings": [
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "stats-books-2025",
+          "webUrl": "https://www.goodreads.com/review/list/52826337?shelf=stats-books-2025"
+        }
+      }
+    ],
+    "webUrl": "https://www.goodreads.com/review/show/8061507070"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.o5TNRrmBUBvPhwZpM139xA": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.o5TNRrmBUBvPhwZpM139xA",
+    "creator": {
+      "__ref": "User:52826337"
+    },
+    "recommendFor": null,
+    "updatedAt": 1791992019041,
+    "createdAt": 1763412603669,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1791619535638,
+    "text": "What an utter disappointment. I thought that once I made it through all 700 pages I would have a long rant in me, but I'm just tired. The choice to have 3 storylines was a complete trainwreck, Islington is incapable of either switching naturally between them or building up 2 additional satisfying worlds in the limited space of the third of a book. Worst of all, the original storyline of the Vis in the \"main\" world drags endlessly on for the first half and then rapidly just devolves into chaos, pointless character deaths for shock value and frankly insane choices being made. Large, large parts of the book are just time skips that are used to justify character development. Oh, 6 weeks have passed? Desert Vis has a new best friend now. Irish Vis has a found family that he values more than his entire past. Caten Vis is murdering people left and right now. Let's have the same exposition scene in 3 different worlds! So many things about the magic system and worldbuilding from the first book are completely thrown away for the sake of the plot. I have seldom been so utterly disappointed by a sequel to a work that showed so much promise.",
+    "rating": 1,
+    "preciseRating": 1.5,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A3JRUSIS9L5KFX\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 202,
+    "viewerHasLiked": null,
+    "commentCount": 8
+  },
+  "User:59777405": {
+    "__typename": "User",
+    "legacyId": 59777405,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1735873837i/59777405._UX200_CR0,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 4,
+    "textReviewsCount": 64,
+    "name": "Justin Vollrath",
+    "webUrl": "https://www.goodreads.com/user/show/59777405-justin-vollrath",
+    "contributor": null,
+    "id": 59777405
+  },
+  "User:kca://profile:goodreads/A2GJRMVJNOIRS6": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A2GJRMVJNOIRS6"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A2GJRMVJNOIRS6\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A2GJRMVJNOIRS6",
+      "id": "kca://profile:goodreads/A2GJRMVJNOIRS6"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/59777405?shelf=read"
+    },
+    "taggings": [],
+    "webUrl": "https://www.goodreads.com/review/show/8009821044"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1._rmZETX1odiYcF8yabIMJA": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1._rmZETX1odiYcF8yabIMJA",
+    "creator": {
+      "__ref": "User:59777405"
+    },
+    "recommendFor": null,
+    "updatedAt": 1792314744359,
+    "createdAt": 1763092573299,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1763093077660,
+    "text": "I really feel like I’ve been in my hater era these last few books, not a fun feeling.<br /><br />The Will of The Many was one of my favourite books last year: very efficient, very tightly paced, with a great main character and a massive WTF ending that suggested the sequel would be a massive, risk taking change-up. That ended up being true, but I didn’t love the result.<br /><br />The sequel is split evenly from 3 different perspectives, but as a result of having to do so much set-up for the 2 new POVs and settings, the pace feels uneven, and the large time jumps in between returning to each POV makes the book feel disjointed. We’re often just told of events happening, and the new cast and relationships are established too quickly to feel very earned or satisfying. Even the characters from the first book feel like they barely exist due to the heavy plot-focus taking away precious pages that are already spread too thin.<br /><br />Add that to the one character that really does get developed meaningfully and who has a believable relationship with the main character getting unceremoniously and jarringly killed 80% through the book, and I feel like I eventually just kind of stopped caring about the struggles of these characters and read more just to find out how it ends rather than being excited. While the end of the last book had my mind excitedly spinning, imaging just how many ways this story could go, I finished this book feeling more like “oh, alright”.<br /><br />I can’t stress enough that this book *is* interesting, and I’m glad that it took so much risks with genre and how it tells its story. But ultimately I think the result wasn’t great, and interesting doesn’t always make good. I’ll definitely pick up book 3, but the wait will feel much easier now that I’m not looking forward to the next one so much.<br /><br />3 stars",
+    "rating": 3,
+    "preciseRating": 3,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A2GJRMVJNOIRS6\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 181,
+    "viewerHasLiked": null,
+    "commentCount": 10
+  },
+  "User:128606316": {
+    "__typename": "User",
+    "legacyId": 128606316,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1782955839i/128606316._UY200_CR83,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 1112,
+    "textReviewsCount": 1289,
+    "name": "Krysta ꕤ",
+    "webUrl": "https://www.goodreads.com/user/show/128606316-krysta",
+    "contributor": null,
+    "id": 128606316
+  },
+  "User:kca://profile:goodreads/A23PYDCQPL58AU": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A23PYDCQPL58AU"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A23PYDCQPL58AU\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A23PYDCQPL58AU",
+      "id": "kca://profile:goodreads/A23PYDCQPL58AU"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE",
+      "id": "kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/128606316?shelf=read"
+    },
+    "taggings": [
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "audio",
+          "webUrl": "https://www.goodreads.com/review/list/128606316?shelf=audio"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "fantasy",
+          "webUrl": "https://www.goodreads.com/review/list/128606316?shelf=fantasy"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "honorable-mentions",
+          "webUrl": "https://www.goodreads.com/review/list/128606316?shelf=honorable-mentions"
+        }
+      }
+    ],
+    "webUrl": "https://www.goodreads.com/review/show/5777936401"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.L37LOL4dVTvVUjUyqChW0w": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.L37LOL4dVTvVUjUyqChW0w",
+    "creator": {
+      "__ref": "User:128606316"
+    },
+    "recommendFor": null,
+    "updatedAt": 1791670514002,
+    "createdAt": 1743028115503,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1791665101431,
+    "text": "4.5 ☆<br /><br /><b>\n  <i>”The needs of the many will always be loud.” He leans forward. “But in the end, it is only the strength of the few that matters.”</i>\n</b><br /><br />i was desperately awaiting this sequel and it was more than worth the wait. it’s very hard to not give spoilers, so I’ll try to be as vague as possible. i loved the take on multi pov, it was very unique and unlike anything i had read before. there’s so many layers to this world and the opportunities are endless. the tone and plot goes in a completely different direction and i honestly felt bad for Vis, from beginning to end he was going through it and i was so grateful that he had his friends to lean on and get some guidance from. the only reason this isn’t a full 5 is because i don’t think it’s better than <i>The Will of the Many,</i> there were a few things that were random and a couple decisions that were made that i wasn’t the biggest fan of. besides that, i think this series is just incredible and the ending sent me spiraling all over again. the wait for book 3 is going to kill me, im sure. <br /><br /><b>\n  <i>EXTRA QUOTES —<br /><br />➛ “Without grief, love would be meaningless. Because it is impossible to truly love something that cannot be lost.”<br /><br />➛ “A society cannot make a man a monster, Diago. But it can give him the excuse to become one.”<br /><br />➛ “Instead of the easy gift of our lives, we must suffer the hundred little deaths of self in order to protect this world. Not because what we do is good, but because good will no longer exist if we do not.”</i>\n</b>",
+    "rating": 4,
+    "preciseRating": 4.5,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A23PYDCQPL58AU\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE\"}}"
+    },
+    "likeCount": 171,
+    "viewerHasLiked": null,
+    "commentCount": 35
+  },
+  "User:177815884": {
+    "__typename": "User",
+    "legacyId": 177815884,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1785014113i/177815884._UX200_CR0,13,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 542,
+    "textReviewsCount": 143,
+    "name": "ଘRory ( semi-hiatus)",
+    "webUrl": "https://www.goodreads.com/user/show/177815884-rory-semi-hiatus",
+    "contributor": null,
+    "id": 177815884
+  },
+  "User:kca://profile:goodreads/A2A85O1XNA5BV": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A2A85O1XNA5BV"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A2A85O1XNA5BV\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A2A85O1XNA5BV",
+      "id": "kca://profile:goodreads/A2A85O1XNA5BV"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "to-read",
+      "displayName": "Want to Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_wtr",
+      "sortOrder": 0,
+      "webUrl": "https://www.goodreads.com/review/list/177815884?shelf=to-read"
+    },
+    "taggings": [],
+    "webUrl": "https://www.goodreads.com/review/show/7624717410"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.DSY4SBq_41AShYl6VeY6oA": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.DSY4SBq_41AShYl6VeY6oA",
+    "creator": {
+      "__ref": "User:177815884"
+    },
+    "recommendFor": null,
+    "updatedAt": 1779838781080,
+    "createdAt": 1748974123293,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1763887787040,
+    "text": "-it is time 😻 🤸🤸🤸🤸🤸<br /><br /><br />-Heaven knows I'm miserable 'til November.",
+    "rating": 0,
+    "preciseRating": 0,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A2A85O1XNA5BV\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 144,
+    "viewerHasLiked": null,
+    "commentCount": 11
+  },
+  "User:124132123": {
+    "__typename": "User",
+    "legacyId": 124132123,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1738285447i/124132123._UX200_CR0,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 8941,
+    "textReviewsCount": 1657,
+    "name": "Lisa of Troy",
+    "webUrl": "https://www.goodreads.com/user/show/124132123-lisa-of-troy",
+    "contributor": null,
+    "id": 124132123
+  },
+  "User:kca://profile:goodreads/AIR6ZMDB3JFQD": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/AIR6ZMDB3JFQD"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/AIR6ZMDB3JFQD\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/AIR6ZMDB3JFQD",
+      "id": "kca://profile:goodreads/AIR6ZMDB3JFQD"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/124132123?shelf=read"
+    },
+    "taggings": [],
+    "webUrl": "https://www.goodreads.com/review/show/8866254628"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.9J56ZURsy1B8MuFxsZaPdA": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.9J56ZURsy1B8MuFxsZaPdA",
+    "creator": {
+      "__ref": "User:124132123"
+    },
+    "recommendFor": null,
+    "updatedAt": 1789285598409,
+    "createdAt": 1787660293872,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1787660636337,
+    "text": "Vek. The Strength of the Few wasn’t as good as the first book in the series, <a href=\"https://www.goodreads.com/book/show/58416952-the-will-of-the-many?ac=1&amp;from_search=true&amp;qid=SbrlsyNMlP&amp;rank=1\" rel=\"nofollow noopener\">The Will of the Many</a>.<br /><br />In The Strength of the Few, the narrative is split between three worlds: Res, Luceum, and Obiteum.<br /><br />Frankly, there should only be 2 worlds. Islington is in a precarious position, because he must build up two entirely new worlds from scratch. There wasn’t a good mix between the established world/fan favorites and new information. This caused the book to drag.<br /><br />Additionally, Islington has too many characters. Even though I took notes on every chapter, I still have little to no idea who all of the warring factions are in one of the worlds. And the character development is naturally lacking….how can there possibly be proper character development with new characters being introduced left, right, and center?<br /><br />In terms of the reading experience, The Strength of the Few wasn’t as enjoyable. There was too much world building, so I was frequently pausing to take down information (how things worked, character names, etc.)<br /><br />The last third of the book is much faster paced (and I wish that we would have gotten there faster).<br /><br /><b>The Green Light at the End of the Dock (How much I spent):</b><br />Hardcover Text – $34.31 from Pango<br />Audiobook - Audible - $6.59<br /><br /><b>Connect With Me!</b><br /><a href=\"https://lisaoftroy.com/\" rel=\"nofollow noopener\">Blog</a> <a href=\"https://www.threads.net/@lisa_of_troy?xmt=AQGzW9240MHWwSB6Amp1XqqHmfVqpBBDauqHQ_7MYhTIT8g\" rel=\"nofollow noopener\">Threads</a> <a href=\"https://www.youtube.com/channel/UCvmSewQ0IGOzDnuMZNUKTbg\" rel=\"nofollow noopener\">BookTube</a> <a href=\"https://www.facebook.com/LisaofTroy\" rel=\"nofollow noopener\">Facebook</a> <a href=\"https://www.instagram.com/lisa_of_troy/\" rel=\"nofollow noopener\">Insta</a> <a href=\"https://pangobooks.com/bookstore/lisaoftroy\" rel=\"nofollow noopener\">My Bookstore at Pango</a>",
+    "rating": 3,
+    "preciseRating": 3,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/AIR6ZMDB3JFQD\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 135,
+    "viewerHasLiked": null,
+    "commentCount": 5
+  },
+  "User:171166914": {
+    "__typename": "User",
+    "legacyId": 171166914,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1783049602i/171166914._UX200_CR0,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 1418,
+    "textReviewsCount": 363,
+    "name": "Laura Jane ♡ (semi ia)",
+    "webUrl": "https://www.goodreads.com/user/show/171166914-laura-jane-semi-ia",
+    "contributor": null,
+    "id": 171166914
+  },
+  "User:kca://profile:goodreads/A5L2QKCHK4VCZ": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A5L2QKCHK4VCZ"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A5L2QKCHK4VCZ\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A5L2QKCHK4VCZ",
+      "id": "kca://profile:goodreads/A5L2QKCHK4VCZ"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/171166914?shelf=read"
+    },
+    "taggings": [
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "fantasy-faves",
+          "webUrl": "https://www.goodreads.com/review/list/171166914?shelf=fantasy-faves"
+        }
+      }
+    ],
+    "webUrl": "https://www.goodreads.com/review/show/8255708027"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.SgnxAOJBLsdsUqqfIiYN8g": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.SgnxAOJBLsdsUqqfIiYN8g",
+    "creator": {
+      "__ref": "User:171166914"
+    },
+    "recommendFor": null,
+    "updatedAt": 1790335665714,
+    "createdAt": 1770805443571,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1771675729899,
+    "text": "<b>“GODS-DAMNED ROTTING VEK”</b><br /><br />Vis Telimus!!!! What the vek was that ending… Hail Vis 😭<br /><br />What a rollercoaster! This was an incredible second instalment to this series. The world building expanded exponentially and the politics levelled with even more depth and complexity. The plot itself spanned so much further than I could have imagined, I have genuinely never read anything like this before!<br /><br />Vis really went through it again, so that means so did I 😅 He really is such a unique mc… like truly this strength, intelligence and empathy make him someone you would literally die for. I love how he thinks differently to everyone else. In this world where power is fuelled by greed and fear, he never strays from his own morals. Even through his own grief and anger. <br />Trying to decipher who is ‘good or bad’ in this book doesn’t work… it’s hard to accept the ways in which those who believe they are fighting for a better world, are actually creating a better world. It really makes you question so many things and highlights even more how resilient and incredible Vis is!<br /><br />The friendships in this series continue to be one of the strongest aspects. Loyalties really shone through in this book and the character development was immaculate. I am absolutely devastated by a loss of someone who I truly ended up adoring. If you need someone to not trust, it’s James to not kill people off. <br /><br />The multi-pov introduced had me hooked from the get go but it also made the pacing struggle a bit at times. The first 30% &amp; the last 30% were incredible! However, I do want to stress that the whole book was throughly enjoyable…. But naturally my heart sat mostly with the original pov, so at times I felt myself wanting to go back and explore that part of the story more and be with the characters who I’m more invested in. The flow of the povs really worked sometimes and other times I found it meant it was harder to fully connect to the new characters because of the switch ups. Something crazy would happen and then I’d switch back to another pov where things were more stagnant at the time. For me this is what threw the pacing off slightly, especially in the middle. <br />There is a lot of information to take in, but as you go you really appreciate how small pieces slowly link back to previous parts of the story. There were so many moments of anxiety &amp; action that truly sent me into a downwards spiral!! <br /><br />Yet again I am left confused… in the best way possible. I am praying for the last line to be what I think it is, oh god 😭 PLEASE!!!!!!! <br />Overall I am so captivated and invested in this world/s, these characters and this story…. The reasons for not following up with another 5 stars really is only because of the pov switch ups i mentioned above, but it truly is a fantastic book - it just didn’t shine as much as book 1 for me! <br /><br />These books truly require so much of your brain power &amp; I have no idea how I’ll remember any of this by the time book 3 releases so I’m gunna leave that up to Youssra to deal with… thank yewwww. ",
+    "rating": 4,
+    "preciseRating": 4,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A5L2QKCHK4VCZ\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 132,
+    "viewerHasLiked": null,
+    "commentCount": 89
+  },
+  "User:157143261": {
+    "__typename": "User",
+    "legacyId": 157143261,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1665693833i/157143261._UX200_CR0,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 328,
+    "textReviewsCount": 237,
+    "name": "Mbhabibti",
+    "webUrl": "https://www.goodreads.com/user/show/157143261-mbhabibti",
+    "contributor": null,
+    "id": 157143261
+  },
+  "User:kca://profile:goodreads/A272XUFYHVQXX4": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A272XUFYHVQXX4"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A272XUFYHVQXX4\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A272XUFYHVQXX4",
+      "id": "kca://profile:goodreads/A272XUFYHVQXX4"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/157143261?shelf=read"
+    },
+    "taggings": [],
+    "webUrl": "https://www.goodreads.com/review/show/6763009593"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.vxehmGoQ4Td_EbJ5qFUFfQ": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.vxehmGoQ4Td_EbJ5qFUFfQ",
+    "creator": {
+      "__ref": "User:157143261"
+    },
+    "recommendFor": null,
+    "updatedAt": 1792347088370,
+    "createdAt": 1766365501869,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1766420658493,
+    "text": "The title is actually a reference to those of us who had the \"will\"power to finish this book...",
+    "rating": 2,
+    "preciseRating": 2,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A272XUFYHVQXX4\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 120,
+    "viewerHasLiked": null,
+    "commentCount": 2
+  },
+  "User:75966379": {
+    "__typename": "User",
+    "legacyId": 75966379,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1637815639i/75966379._UX200_CR0,25,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 2891,
+    "textReviewsCount": 608,
+    "name": "Lia Carstairs",
+    "webUrl": "https://www.goodreads.com/user/show/75966379-lia-carstairs",
+    "contributor": null,
+    "id": 75966379
+  },
+  "User:kca://profile:goodreads/A346N73EVJXAPP": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A346N73EVJXAPP"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A346N73EVJXAPP\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A346N73EVJXAPP",
+      "id": "kca://profile:goodreads/A346N73EVJXAPP"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/75966379?shelf=read"
+    },
+    "taggings": [
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "adult",
+          "webUrl": "https://www.goodreads.com/review/list/75966379?shelf=adult"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "fantasy",
+          "webUrl": "https://www.goodreads.com/review/list/75966379?shelf=fantasy"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "erase-this-from-my-mind",
+          "webUrl": "https://www.goodreads.com/review/list/75966379?shelf=erase-this-from-my-mind"
+        }
+      },
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "buddy-reads",
+          "webUrl": "https://www.goodreads.com/review/list/75966379?shelf=buddy-reads"
+        }
+      }
+    ],
+    "webUrl": "https://www.goodreads.com/review/show/6622410911"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.EjXchiN51bZ__j1SRpX4gw": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.EjXchiN51bZ__j1SRpX4gw",
+    "creator": {
+      "__ref": "User:75966379"
+    },
+    "recommendFor": null,
+    "updatedAt": 1791313142752,
+    "createdAt": 1719545343727,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1791313142752,
+    "text": "<b>(2.5⭐)</b><br /><blockquote>\n  <b>\n    <i>\"The needs of the many will always be loud. But in the end, it is only the strength of the few that matters.\"</i>\n  </b>\n</blockquote><br /><i>The Strength of the Few</i> was one of my most anticipated reads of 2025 and I so badly wanted to love it. Unfortunately, it was a big disappointment.<br /><br /><b>🛑SPOILERS FOR BOOK 1 BELOW🛑</b><br /><br />I am always a character over plot type of reader and of course having it balanced out is the best combination but wdym you just completely annihilated any emotional attachment I previously had with ANY of the characters??? I kid you not I do not care about any of them at all, they could die and at most I would be shocked (depends on the character, which one of them yeah I was just like ????) but I won't be sad! For a 700 paged book, you would think there would be ample amount of page time to love Vis and the side characters even more than in book 1 but no😭 It's so strange because while I can point out scenes where we got to see more of some* side characters from book 1, there was just something missing??? No connection to them at all I don't know?? Still, compared to the other worlds, Res definitely had the better side characters and the closest I felt to caring about (though that's really not surprising considering we knew them from TWOTM). I definitely think this book's biggest weakness was the lack of development in the characters and relationships.<br /><br />*I say some but it was really only Aequa (Also the potential for getting more complex characters/relationships after the events in book 1 and the author didn't do anything with it in this book??? Wow)<br /><br />Regarding the multi-POVs, I definitely applaud the author for coming up with such a unique concept I've never encountered before and I really enjoyed it in the beginning! Luceum especially was my favourite at first because we knew absolutely nothing and Vis had no help at all with any character who knew what was going on. Meanwhile, Res Vis and Obiteum Vis had people to rely on. So I did really enjoy seeing Luceum Vis but it did feel like filler tbh. He really was just chilling for a whole year while Obiteum Vis was fighting for his life LOL. Which btw strangely enough even though Obiteum Vis was most definitely doing the most plot-wise... WHY WAS HIS POV SO BORING???? Like wow talk about making infiltrating a city boring! I was hopeful at first because we got to see Caeror and I liked Caeror but at a certain point, it was all so dull and the characters Vis met were whatever like okay moving on. Res Vis felt the most balanced in terms of moving forward with the plot and having meaningful interactions with the characters and again, I enjoyed it all (especially with some really cool scenes) but at some point I just came to the realization that I... don't care about any of these guys? And once I realize I don't care about anyone, I lose interest FAST. Thankfully I came to this realization at page 600 so at least it was only 100 pages of torture, right?<br /><br />Also, I was genuinely getting annoyed with the constant POV switching, especially when we were in the middle of something in one of the worlds. I do understand how hard it would be to balance it all out but I felt that it was done pretty well in the beginning and at some point it just started to get annoying. It would take awhile to get into the other world and when I finally get into it, the POV switches again... <br /><br />I realize this makes it seem like I hated this book but I didn't. (<b>edit:</b> well actually I certainly feel more angry than happy after reading this) I will say that what made my experience better was buddy reading with a friend and trading theories between one another because otherwise I probably would've noticed things I didn't like much earlier on and it would've bothered me more. <br /><br />Also on another note, I beg of the author to please not include romance in his books they're written so badly, it's so unnecessary. I would rather there was no romance at all IT'S NOT NEEDED and I say this as a romance lover. Like Tara? Really? All the characters in Luceum had the personality of a cardboard (though really also Obiteum) but like this forced romance or whatever the author was trying to write here?? Um no. And its hilarious because meanwhile Res Vis actually had better chemistry with Aequa (but tbh I wouldn't have cared if they had gotten together) and look at the direction that took LOL. Make it make sense. <input type=\"checkbox\" class=\"spoiler__control\" aria-label=\"The following text has been marked spoiler. Toggle checkbox to reveal or hide.\" onchange=\"this.labels[0].setAttribute('aria-hidden', !this.checked);\" id=\"4951208f-7aea-4525-8eec-b694fe8a0977\" /><label aria-hidden=\"true\" class=\"spoiler\" for=\"4951208f-7aea-4525-8eec-b694fe8a0977\">Aequa's death is so dumb, ignoring how unnecessary it felt, why did the author kill off the only well-developed female character? Like lol? Okay man I guess you do you!</label><br /><br />Oh, and the ending. I don't know I guess it was surprising but I'm at the point where I genuinely don't care anymore. My face was just 😐 Didn't expect it that's for sure! I have questions but also it wouldn't be the end of the world if I never found out. As of now, I have zero interest in reading the next book and I doubt I'll change my mind. RIP to this book and the potential you had💔 I'll forever remember the love I held for TWOTM.<br /><br /><br />(Also I fear the more I think about this book, the more I dislike it so maybe in a few days this rating will drop)",
+    "rating": 2,
+    "preciseRating": 2.5,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A346N73EVJXAPP\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 109,
+    "viewerHasLiked": null,
+    "commentCount": 11
+  },
+  "User:60725431": {
+    "__typename": "User",
+    "legacyId": 60725431,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1678971318i/60725431._UY200_CR33,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 1047,
+    "textReviewsCount": 2471,
+    "name": "Booksblabbering || Cait❣️",
+    "webUrl": "https://www.goodreads.com/user/show/60725431-booksblabbering-cait",
+    "contributor": null,
+    "id": 60725431
+  },
+  "User:kca://profile:goodreads/A25RBXQE0APV1R": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A25RBXQE0APV1R"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A25RBXQE0APV1R\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A25RBXQE0APV1R",
+      "id": "kca://profile:goodreads/A25RBXQE0APV1R"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/60725431?shelf=read"
+    },
+    "taggings": [],
+    "webUrl": "https://www.goodreads.com/review/show/7437164183"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.SW1y6To_ZLg_vnl_nHhf4Q": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.SW1y6To_ZLg_vnl_nHhf4Q",
+    "creator": {
+      "__ref": "User:60725431"
+    },
+    "recommendFor": null,
+    "updatedAt": 1778592421149,
+    "createdAt": 1763147158776,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1763169020402,
+    "text": "Islington holds back no punches. <br /><br />I preferred The Will of the Many, but this one expanded the world and what we (and Vis) know massively. <br /><br />Don’t read on if you haven’t finished book one.<br /><br />No spoilers for book two: <br /><br />If we thought Vis caused trouble in book, now we have three different versions in each of Obiteum, Luceum, and Res. Each Vis is the main character of their own story, all three leading different lives in very different worlds. Triple threat. <br /><br />My favourite world and perspective remained Res, the world from book one. I latch onto characters and friendships, and so of course I would want to follow what felt like the ‘real’ Vis.<br /><br />That is why my rating didn’t hit that five star. We get new worlds and attachments in these new worlds, but now we have to split our focus and time between more characters. <br /><br /><b>“What other choice do we have, now? We can spout a lifetime of words and they will echo and fade, and history will not remember a single one. I don’t like it either but when power is so entrenched, so impossibly distant, blood becomes the only possible currency of change.”</b><br /><br />The plot is enticing and filled with shocking revelations. You never know where Islington will take you next. <br /><br />I like how Islington didn’t diminish Vis’s trauma (particularly from the ending of book one) as well as his newfound inner confidence and impatience. <br /><br />It should be obvious I will be reading on, but I did notice moments where I couldn’t put the book down compared to chapters when I just wanted to move on to the next perspective. <br /><br /><a href=\"https://www.instagram.com/booksblabbering/\" rel=\"nofollow noopener\">Bookstagram</a> <br /><a href=\"https://www.tiktok.com/@booksblabbering\" rel=\"nofollow noopener\">Tiktok</a>",
+    "rating": 4,
+    "preciseRating": 4,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A25RBXQE0APV1R\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 99,
+    "viewerHasLiked": null,
+    "commentCount": 9
+  },
+  "User:161381370": {
+    "__typename": "User",
+    "legacyId": 161381370,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1727124278i/161381370._UX200_CR0,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 440,
+    "textReviewsCount": 663,
+    "name": "Evie",
+    "webUrl": "https://www.goodreads.com/user/show/161381370-evie",
+    "contributor": null,
+    "id": 161381370
+  },
+  "User:kca://profile:goodreads/A1J6NIPG5ZQMCB": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A1J6NIPG5ZQMCB"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A1J6NIPG5ZQMCB\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A1J6NIPG5ZQMCB",
+      "id": "kca://profile:goodreads/A1J6NIPG5ZQMCB"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE",
+      "id": "kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/161381370?shelf=read"
+    },
+    "taggings": [],
+    "webUrl": "https://www.goodreads.com/review/show/8061778828"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.VFfNRQuTrlIa30XLd6KTJg": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.VFfNRQuTrlIa30XLd6KTJg",
+    "creator": {
+      "__ref": "User:161381370"
+    },
+    "recommendFor": null,
+    "updatedAt": 1779838806847,
+    "createdAt": 1763412130742,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1763458023269,
+    "text": "I feel like I can say literally nothing about this book without it being a spoiler. The only thing I can say, is that while reading this, the action was so visceral and the stakes so high that I could feel my blood pulsing while reading it. I was shocked, I cried and I cheered. Epic fantasy truly at its best. <br /><br />I had no idea how the direction that this story would go with how book one ended but.... Wow....all I can say is that it's been 842 days since I read book one and, as painful as it was, it was worth the wait. <br /><br />But Jesus these books know how to land a cliff hanger. Can't believe I need to start the wait again for the last book 🥲",
+    "rating": 5,
+    "preciseRating": 5,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A1J6NIPG5ZQMCB\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE\"}}"
+    },
+    "likeCount": 96,
+    "viewerHasLiked": null,
+    "commentCount": 36
+  },
+  "User:29026080": {
+    "__typename": "User",
+    "legacyId": 29026080,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1729368117i/29026080._UY200_CR0,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 42,
+    "textReviewsCount": 959,
+    "name": "T Davidovsky",
+    "webUrl": "https://www.goodreads.com/user/show/29026080-t-davidovsky",
+    "contributor": null,
+    "id": 29026080
+  },
+  "User:kca://profile:goodreads/A2DHAAO0G4YMV0": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A2DHAAO0G4YMV0"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A2DHAAO0G4YMV0\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A2DHAAO0G4YMV0",
+      "id": "kca://profile:goodreads/A2DHAAO0G4YMV0"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE",
+      "id": "kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/29026080?shelf=read"
+    },
+    "taggings": [],
+    "webUrl": "https://www.goodreads.com/review/show/8063635535"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.8ZqE-mIjV3mdAD1gR8wfJA": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.8ZqE-mIjV3mdAD1gR8wfJA",
+    "creator": {
+      "__ref": "User:29026080"
+    },
+    "recommendFor": null,
+    "updatedAt": 1791818962271,
+    "createdAt": 1763091345176,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1791818962271,
+    "text": "<a href=\"https://booksandmorebooks.neocities.org/posts/reviews/thewillofthemany\" rel=\"nofollow noopener\">Click here for a review of: The Will of the Many </a><br /><br />All the bad qualities from <i>The Will of the Many</i> — the ending, the prose, the main character’s lack of imagination, the Gary Stu aspects, and the bewildering motives behind the Anguis — have not gone away in this sequel. <br /><br />Meanwhile all the redeeming qualities from <i>The Will of the Many</i> — the easy pacing, some of the side characters, the magic system, and the interesting questions posed about how to confront power — are sidelined in (or completely absent from) <i>The Strength of the Few</i>.",
+    "rating": 1,
+    "preciseRating": 1,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A2DHAAO0G4YMV0\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.i-2-Adf81HWUyjWE\"}}"
+    },
+    "likeCount": 95,
+    "viewerHasLiked": null,
+    "commentCount": 6
+  },
+  "User:172735930": {
+    "__typename": "User",
+    "legacyId": 172735930,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1705225741i/172735930._UX200_CR0,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 166,
+    "textReviewsCount": 148,
+    "name": "Emily-Rose At The Rose House",
+    "webUrl": "https://www.goodreads.com/user/show/172735930-emily-rose-at-the-rose-house",
+    "contributor": null,
+    "id": 172735930
+  },
+  "User:kca://profile:goodreads/A1U3U6NHS62Y28": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A1U3U6NHS62Y28"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A1U3U6NHS62Y28\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A1U3U6NHS62Y28",
+      "id": "kca://profile:goodreads/A1U3U6NHS62Y28"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/172735930?shelf=read"
+    },
+    "taggings": [
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "top-reads-for-2025",
+          "webUrl": "https://www.goodreads.com/review/list/172735930?shelf=top-reads-for-2025"
+        }
+      }
+    ],
+    "webUrl": "https://www.goodreads.com/review/show/6205621926"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.VtPwLNxWzE7LP7jdZtsyXw": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.VtPwLNxWzE7LP7jdZtsyXw",
+    "creator": {
+      "__ref": "User:172735930"
+    },
+    "recommendFor": null,
+    "updatedAt": 1779717288817,
+    "createdAt": 1763328256762,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1764976071833,
+    "text": "“Death is the door to life”<br /><br />I’m honestly not sure which realm I’m living in after finishing this book. Delusional confidence had me determined to guess the plot twists, I successfully got them all wrong 🙃 Vek! <br /><br />James you are a genius!<br /><br />Now, be warned, this book demands 200% of your attention as you continuously jump between the 3 worlds. The MMC Vis has 22 different names, I wish i was joking, I don’t even know my own name at this point😵‍💫 Am I complaining? Absolutely not! I am obsessed with this book &amp; I’ll be doing a re-read immediately.<br /><br />If The Will Of The Many isn’t fresh in your memory, you absolutely need to re-read before diving in 🙌🏼<br /><br />—- <br /><br />Favourite Quotes <br /><br />1. Fear is simply our realisation of a lack of control <br /><br />2. Death is a doorway <br /><br />3. Every man has to find his line, and never cross it<br /><br />4. Death is our most important horizon<br /><br />5. Clarity of purpose is everything <br /><br />6. Men become their choices not their intensions <br /><br />7. Hail, Vis<br /><br />8. Vek! *I went to a book signing today &amp; asked James to add this quote to my copy of the book! Honestly, it sums up how I feel about the ending perfectly 🙃",
+    "rating": 5,
+    "preciseRating": 5,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A1U3U6NHS62Y28\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 100,
+    "viewerHasLiked": null,
+    "commentCount": 3
+  },
+  "User:100765006": {
+    "__typename": "User",
+    "legacyId": 100765006,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1628328575i/100765006._UX200_CR0,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 0,
+    "textReviewsCount": 1733,
+    "name": "Esmay Rosalyne",
+    "webUrl": "https://www.goodreads.com/user/show/100765006-esmay-rosalyne",
+    "contributor": null,
+    "id": 100765006
+  },
+  "User:kca://profile:goodreads/A242AASX6M7X5C": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A242AASX6M7X5C"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A242AASX6M7X5C\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A242AASX6M7X5C",
+      "id": "kca://profile:goodreads/A242AASX6M7X5C"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/100765006?shelf=read"
+    },
+    "taggings": [
+      {
+        "__typename": "Tagging",
+        "tag": {
+          "__typename": "Tag",
+          "name": "2025-releases",
+          "webUrl": "https://www.goodreads.com/review/list/100765006?shelf=2025-releases"
+        }
+      }
+    ],
+    "webUrl": "https://www.goodreads.com/review/show/5949840182"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.__pKRIG8iVYpy0CaR2nUcg": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.__pKRIG8iVYpy0CaR2nUcg",
+    "creator": {
+      "__ref": "User:100765006"
+    },
+    "recommendFor": null,
+    "updatedAt": 1789936850586,
+    "createdAt": 1764454200273,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1764858203740,
+    "text": "2.5 stars<br /><br />That feeling when one of your most anticipated sequels becomes one of your biggest disappointments of the year... love that for me. I mean, there's no denying that <i>The Strength of the Few</i> is one hell of a unique and ambitious book, but I have to admit that the most impressive thing about it all is how Islington basically wrote 3 books in one and then somehow managed to not make me care about any of them. <br /><br />Now, I really wanted and tried my best to love this book. I even put it down at 45% when I realised that I was not enjoying it because I was still in a book hangover from <i>Empire of the Dawn</i>, and then started it over completely 2 weeks later to give it a fair shot. But alas, it just was not meant to be, and I am kinda kicking myself for being so stubborn that I forced myself to finish it when it felt like such a chore to read. <br /><br />Don't get me wrong, there were definitely aspects I liked, and for the first 15 chapters or so I actually thought this was going to be the 5-star read that I had predicted it to be. We immediately get so many answers to all the burning questions that we were left with after that bombshell plot twist at the end of <i>The Will of the Many</i>, while also planting tons of new, intriguing hooks for the next stage of Vis' story. <br /><br />I also really liked that we get to explore three different worlds each with their own cultures (Roman, Celtic, and Egyptian-inspired), variations of Will magic, characters, and, of course, their own version of Vis. However, the more I read, the more I just found myself losing interest as I felt like we never got the time to really get grounded in any of the storylines. There were definitely some exciting new aspects and wild revelations about the grand overarching plot of this series in the Obiteum and Luceum storylines, but I have to admit that I constantly found myself yearning to get back to Res and actually spend more time with the characters I had spent the full 600-ish pages of book 1 getting invested in, you know?<br /><br />For me, this is a prime example of plot/world building over characters, and that is unfortunately never going to work for me, no matter how cool and exciting everything might be. You see, if I don't care about the characters, I also won't care about the political intrigue they get embroiled in, the magic they need to master, the challenges they have to face, the complicated relationships they have to navigate, the threats they have to fight or the emotional blows they have to suffer. All of this made the pacing feel very uneven to me, with a deceptively strong start, a frustratingly dragging middle, and a wild, hectic mess of an ending that should have been thrilling but just left me feeling confused and dissatisfied.<br /><br />Also, because my investment was so low, I started to notice other little quirks/flaws that otherwise would not have bothered me, which only made the reading experience more tiring for me. Like, how many times can Vis say 'rotting gods'? How many times can we skip weeks/months of time and just have to believe in the progress/development that happened off-page? How many times can a chapter start with Vis diving into a philosphical musing by recalling how 'X person once said...' (Vis, bro, do you have any deep, original thoughts and good insights yourself?!). And can someone please explain to me how we have three worlds with three full casts of characters, and yet there is not a single queer person in sight? This is totally a petty nitpick and it did not influence my enjoyment and/or rating, but it just felt a bit unbelievable and disappointing to me, so there's that. <br /><br />All that said, in a weird way I actually think this is a better book than <i>The Will of the Many</i>, and I truly applaud Islington for committing to his bold vision for this series. Ultimately, I would still recommend giving this a shot, just don't come in expecting the same things that book 1 gave. To me, the scope and storytelling in <i>The Strength of the Few</i> felt much more like that of <i>The Licanius Trilogy</i> (just better written), which you are either going to love or hate depending on your tastes. Personally, I don't know if I am the right target audience for the direction that this series is going in, but I also have a feeling that the FOMO will probably make me read book 3 anyway. Someone save me from myself, please.",
+    "rating": 3,
+    "preciseRating": 3,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A242AASX6M7X5C\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 89,
+    "viewerHasLiked": null,
+    "commentCount": 26
+  },
+  "User:167678331": {
+    "__typename": "User",
+    "legacyId": 167678331,
+    "imageUrlSquare": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1735271299i/167678331._UY200_CR77,0,200,200_.jpg",
+    "isAuthor": false,
+    "viewerRelationshipStatus": null,
+    "followersCount": 226,
+    "textReviewsCount": 285,
+    "name": "Jay H (Hiatus)",
+    "webUrl": "https://www.goodreads.com/user/show/167678331-jay-h-hiatus",
+    "contributor": null,
+    "id": 167678331
+  },
+  "User:kca://profile:goodreads/A2NU4GMS6LYUDD": {
+    "__typename": "User",
+    "id": "kca://profile:goodreads/A2NU4GMS6LYUDD"
+  },
+  "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A2NU4GMS6LYUDD\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}": {
+    "__typename": "Shelving",
+    "creator": {
+      "__ref": "User:kca://profile:goodreads/A2NU4GMS6LYUDD",
+      "id": "kca://profile:goodreads/A2NU4GMS6LYUDD"
+    },
+    "book": {
+      "__ref": "Book:kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4",
+      "id": "kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4"
+    },
+    "shelf": {
+      "__typename": "Shelf",
+      "name": "read",
+      "displayName": "Read",
+      "editable": false,
+      "default": true,
+      "actionType": "add_to_read",
+      "sortOrder": 2,
+      "webUrl": "https://www.goodreads.com/review/list/167678331?shelf=read"
+    },
+    "taggings": [],
+    "webUrl": "https://www.goodreads.com/review/show/7103452281"
+  },
+  "Review:kca://review:goodreads/amzn1.gr.review:goodreads.v1.JwNDyW6c3wmlrayCWZXcqw": {
+    "__typename": "Review",
+    "id": "kca://review:goodreads/amzn1.gr.review:goodreads.v1.JwNDyW6c3wmlrayCWZXcqw",
+    "creator": {
+      "__ref": "User:167678331"
+    },
+    "recommendFor": null,
+    "updatedAt": 1789874148664,
+    "createdAt": 1743193056508,
+    "spoilerStatus": false,
+    "lastRevisionAt": 1776422279992,
+    "text": "Guysssss we have a blurb and the release date is confirmed!!!!😭😭",
+    "rating": 4,
+    "preciseRating": 4,
+    "preReleaseBookSource": null,
+    "shelving": {
+      "__ref": "Shelving:{\"creator\":{\"id\":\"kca://profile:goodreads/A2NU4GMS6LYUDD\"},\"book\":{\"id\":\"kca://book/amzn1.gr.book.v3.FvYSgf1A6kEu2PG4\"}}"
+    },
+    "likeCount": 82,
+    "viewerHasLiked": null,
+    "commentCount": 13
+  }
+}
