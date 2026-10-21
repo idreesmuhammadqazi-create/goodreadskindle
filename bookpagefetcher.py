@@ -25,6 +25,7 @@ def getdescription(link):
     return re.sub(r'<[^>]+>' , "", description).strip()
 
 def getotherstuff(link):
+    stuff = []
     headers = HeaderGenerator()()
     page = requests.get(link, headers=headers)
     page = page.text
@@ -35,8 +36,14 @@ def getotherstuff(link):
     for key,entry in cleanjson.items():
         if key.startswith("Work"):
             rating = entry["stats"]["averageRating"]
+            stuff.append(["average" , rating])
             break
-    return rating
+    for key,entry in cleanjson.items():
+        if key.startswith("Review:"):
+            reviewtext = entry["text"]
+            reviewrating = entry["rating"]
+            stuff.append([reviewtext , reviewrating])
+    return stuff
 
 
 print(getotherstuff("https://www.goodreads.com/book/show/169485073-the-strength-of-the-few"))
