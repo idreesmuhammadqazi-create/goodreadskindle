@@ -41,3 +41,17 @@ def getdescription(cleanjson):
             description = entry["description"]
             break
     return re.sub(r'<[^>]+>' , "", description).strip()
+
+def gettitle(cleanjson):
+    for key,entry in cleanjson.items():
+        if key.startswith("Book:"):
+            title = entry["titleComplete"]
+            break
+    return title
+
+def getauthor(cleanjson):
+    for key,entry in cleanjson.items():
+        if key.startswith("Contributor:"):
+            author = entry["name"]
+            break
+    return author

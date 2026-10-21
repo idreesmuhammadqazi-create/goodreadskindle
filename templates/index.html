@@ -10,8 +10,8 @@
             <input type="submit" value="Search">
         </form>
         <H2>Recommendations</H2>
-        {% for b in data %}
-            <h3>{{ b[0] }}</h3><p>by {{ b[1] }}</p>
+        {% for i, b in data %}
+            <h3><a href="https://spaces.hackclub.com/space/32787/proxy/5000/book/{{ i }}">{{ b[0] }}</a></h3><p>by {{ b[1] }}</p>
 
             <p>{{b[2]}}</p>
 

@@ -13,6 +13,7 @@ import bookpagefetcher as bookpagefetcher
 
 exists = set()
 data = []
+bookdata = []
 app = Flask(__name__)
 dotenv.load_dotenv()
 
@@ -95,18 +96,32 @@ def dataparser():
                     data.append(row)
     return(data)
 
-
+def bookinfo(booknumber):
+    link = data[int(booknumber)][3]
+    cleanjson = bookpagefetcher.makecleanjson(link)
+    bookdata.append(bookpagefetcher.gettitle(cleanjson))
+    bookdata.append(bookpagefetcher.getdescription(cleanjson))
+    bookdata.append(bookpagefetcher.getauthor(cleanjson))
+    bookdata.append(bookpagefetcher.getrating(cleanjson))
+    bookdata.append(bookpagefetcher.getreviews(cleanjson))
+    return bookdata
 
 @app.route("/")
 def home():
     data = dataparser()
-    return render_template("index.html" , data=data)
+    return render_template("index.html" , data=enumerate(data))
 
 @app.route("/search" ,methods=["POST"])
 def search():
     query = request.form["query"]
     results = booksearch(query)
     return render_template("search.html" , results=results)
+
+@app.route("/book/<booknumber>")
+def book(booknumber):
+    bookdata = bookinfo(booknumber)
+    return render_template("book.html" , bookdata=bookdata)
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000 , debug=True)
