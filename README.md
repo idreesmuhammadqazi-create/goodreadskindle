@@ -29,18 +29,14 @@ the steps for that are here :
 3 run ```nano cookies.txt``` and then copy and paste all cookies from cookies.txt and then press ctrl + s and then ctrl + x to save and quit  
 4 run ```pip install -r requirements.txt --break-system-packages ##sorry i dont know how to avoid using this flag```  
 5 run ```python3 main.py &``` to run it detached or run(use for actual persistent hosting) ```python3 main.py``` to run normally
-6 get a cloudflare tunnel with https off if you have an older non jailbroken kindle   
-7 vist the tunnel address from your kindle
+6 get a cloudflare tunnel with https off if you have an older non jailbroken kindle     
+7 vist the tunnel address from your kindle  
 
-7 if you DO have a newer kindle then just use any normal hosting service that supports flask ,which is basically all of them tho you have to first enocde ur cookies in base64 and make an env var with the name 'COOKIES' and the base64 as value
+8 if you DO have a newer kindle then just use any normal hosting service that supports flask ,which is basically all of them tho you have to first enocde ur cookies in base64 and make an env var with the name 'COOKIES' and the base64 as value
   
   
 NOTES :
-    this is a WIP so expect lots of improvements and changes (rn my priority is to add a book search and book page view option)  
-
-TODOS :
-    1 : Add a book search option that allows a user to search a book on goodreads and veiw its title description etc  
-    2 : add a book page feature that allows you to see a book's rating and reviews (might add a post review functionality too)
+    this is a WIP so expect lots of improvements and changes (rn my priority is to try adding the people who read this also liked this thingy)  
 
 Acknowledgements 
 https://github.com/havanagrawal/
