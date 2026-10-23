@@ -25,6 +25,7 @@ def getreviews(cleanjson):
         if key.startswith("Review:"):
             reviewtext = entry["text"]
             reviewrating = entry["rating"]
+            
             reviews.append([reviewtext , reviewrating])
     return reviews
 

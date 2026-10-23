@@ -17,6 +17,12 @@
             <h3>Rating </h3>
             <h2>{{ bookdata[3] }}</h2>
 
+            <h2>REVIEWS</h2>
+            {% for b in bookdata[4] %}
+                {{ b[0] |safe }}
+                <p>------------------------------------------------------</p>
+
+            {% endfor %}
             
     </body>
 </html>

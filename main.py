@@ -41,8 +41,6 @@ def booksearch(query):
         link = link.group(1)
         link = "https://goodreads.com" + link
         results.append([title , link])
-    for r in results :
-        r.append(bookpagefetcher.getdescription(r[1]))
     return results
 
 
@@ -98,6 +96,7 @@ def dataparser():
 
 def bookinfo(booknumber):
     link = data[int(booknumber)][3]
+    bookdata = []
     cleanjson = bookpagefetcher.makecleanjson(link)
     bookdata.append(bookpagefetcher.gettitle(cleanjson))
     bookdata.append(bookpagefetcher.getdescription(cleanjson))
