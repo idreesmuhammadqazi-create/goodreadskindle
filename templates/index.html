@@ -5,13 +5,13 @@
     </head>
     <body>
         <h2>Search</h2>
-        <form action="https://spaces.hackclub.com/space/32787/proxy/5000/search" method="POST">
+        <form action="/search" method="POST">
             <input type="text" name="query"  >
             <input type="submit" value="Search">
         </form>
         <H2>Recommendations</H2>
         {% for i, b in data %}
-            <h3><a href="https://spaces.hackclub.com/space/32787/proxy/5000/book/{{ i }}">{{ b[0] }}</a></h3><p>by {{ b[1] }}</p>
+            <h3><a href="/book/{{ i }}">{{ b[0] }}</a></h3><p>by {{ b[1] }}</p>
 
             <p>{{b[2]}}</p>
 

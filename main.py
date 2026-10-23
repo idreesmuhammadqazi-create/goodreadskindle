@@ -24,8 +24,6 @@ def booksearch(query):
     }
 
     headers = HeaderGenerator()()
-    cookies = http.cookiejar.MozillaCookieJar("cookies.txt")
-    cookies.load(ignore_discard=True,ignore_expires=True)
     response = requests.get(url , params=params, headers=headers )
     page = BeautifulSoup(response.text, "html.parser")
     page = page.prettify()
@@ -33,7 +31,6 @@ def booksearch(query):
     longlist = longlist.group(0)
     labels = re.findall(r' <a aria-label="[^"]+" class="BookCard__stretchedLink" href="[^"]+" rel="noopener noreferrer" tabindex="-1">' , longlist)
     results = []
-    index = 0
     for e in labels:
         title = re.search(r'<a aria-label="(.*?)"' , e)
         title = title.group(1)
@@ -62,8 +59,18 @@ def dataparser():
         'Sec-GPC': '1',
         'Upgrade-Insecure-Requests': '1'
     }
-    cookies = http.cookiejar.MozillaCookieJar("cookies.txt")
-    cookies.load(ignore_discard=True,ignore_expires=True)
+    if os.path.exists("cookies.txt"):
+        cookies = http.cookiejar.MozillaCookieJar("cookies.txt")
+        cookies.load(ignore_discard=True,ignore_expires=True)
+    elif os.getenv("COOKIES")  != None:
+        base64cookie = os.getenv("COOKIES")
+        cookie = base64.b64decode(base64cookie).decode("utf-8")
+        with open("COOKIES.txt" , "w") as c:
+            c.write(cookie)
+        cookies = http.cookiejar.MozillaCookieJar("cookies.txt")
+        cookies.load(ignore_discard=True,ignore_expires=True)
+    else : 
+        return "ENV NOT SET and no COOKIES.txt found"
     response = requests.get("https://goodreads.com/recommendations" , headers=headers , cookies=cookies)
     page = BeautifulSoup(response.text, "html.parser")
 
@@ -105,20 +112,38 @@ def bookinfo(booknumber):
     bookdata.append(bookpagefetcher.getreviews(cleanjson))
     return bookdata
 
+def searchbookinfo(booknumber):
+    link = results[int(booknumber)][1]
+    bookdata = []
+    cleanjson = bookpagefetcher.makecleanjson(link)
+    bookdata.append(bookpagefetcher.gettitle(cleanjson))
+    bookdata.append(bookpagefetcher.getdescription(cleanjson))
+    bookdata.append(bookpagefetcher.getauthor(cleanjson))
+    bookdata.append(bookpagefetcher.getrating(cleanjson))
+    bookdata.append(bookpagefetcher.getreviews(cleanjson))
+    return bookdata
+
 @app.route("/")
 def home():
     data = dataparser()
+    if data == "ENV NOT SET and no COOKIES.txt found" :
+        return render_template("noenv.html" )
     return render_template("index.html" , data=enumerate(data))
 
 @app.route("/search" ,methods=["POST"])
 def search():
     query = request.form["query"]
     results = booksearch(query)
-    return render_template("search.html" , results=results)
+    return render_template("search.html" , results=enumerate(results))
 
 @app.route("/book/<booknumber>")
 def book(booknumber):
     bookdata = bookinfo(booknumber)
+    return render_template("book.html" , bookdata=bookdata)
+
+@app.route("/search/book/<booknumber>")
+def searchbook(booknumber):
+    bookdata = searchbookinfo(booknumber)
     return render_template("book.html" , bookdata=bookdata)
 
 

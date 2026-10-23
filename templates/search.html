@@ -4,12 +4,12 @@
         <title>GoodReads Kindle Ed</title>
     </head>
     <body>
-        <form action="https://spaces.hackclub.com/space/32787/proxy/5000/" method="GET">
+        <form action="/" method="GET">
             <input type="submit" value="Go Back">
         </form>
         <H2>Results</H2>
-        {% for r in results %}
-            <h3>{{ r[0] }}</h3>
+        {% for i, r in results %}
+            <h3><a href="/search/book/{{ i }}">{{ r[0] }}</h3>
 
             <p>------------------------------------------------</p>
 
