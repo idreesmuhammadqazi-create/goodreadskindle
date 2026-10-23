@@ -132,6 +132,7 @@ def home():
 
 @app.route("/search" ,methods=["POST"])
 def search():
+    global results
     query = request.form["query"]
     results = booksearch(query)
     return render_template("search.html" , results=enumerate(results))
