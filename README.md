@@ -1,5 +1,7 @@
 # GoodReads Kindle Ed   
-  
+
+![demo image](https://cdn.hackclub.com/01a17268-1e6e-76e2-9a0f-2dcf819f4c25/journal-1790426278079.jpg
+)  
 i wanted to have my goodreads recommendations in my kindle but the only way that was technically 'possible' was to use the kindle browser which is VERY slow and klunky on my K4 and isnt much better on newer kindles either  
   
 So my solution is this :  
