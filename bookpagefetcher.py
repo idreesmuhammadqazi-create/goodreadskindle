@@ -1,12 +1,10 @@
-## FOR THE FUTURE SO I CAN GET BOOK REVIEWS TOO
-
-
 import re
 import json
 import sys
 import requests
 from bs4 import BeautifulSoup
 from random_header_generator import HeaderGenerator
+import os
 
 
 def makecleanjson(link):
@@ -14,6 +12,21 @@ def makecleanjson(link):
     page = requests.get(link, headers=headers)
     page = page.text
     rawjsonblob = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', page, re.DOTALL)
+    if rawjsonblob == None:
+        apikey = os.getenv("browserlessapikey")
+        baseurl = f"https://production-sfo.browserless.io/smart-scrape?token={apikey}"
+        headers = {
+            "Content-Type": "application/json"
+        }
+        data = {
+            "url": link,
+            "formats": ["html"]
+        }
+        response = requests.post(baseurl, headers=headers, json=data)
+        response = response.json()
+        page = BeautifulSoup(response["content"], "html.parser")
+        rawjsonblob = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', page, re.DOTALL)
+
     jsonwithouttags = rawjsonblob.group(1)
     cleanjson = json.loads(jsonwithouttags)
     cleanjson = cleanjson["props"]["pageProps"]["apolloState"] ### HUGE SHOUTOUT TO havanagrawal FOR THIS (i got this from his scrapers scripts)

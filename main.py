@@ -23,11 +23,29 @@ def booksearch(query):
         "q" : query
     }
 
+    apikey = os.getenv("browserlessapikey")
     headers = HeaderGenerator()()
     response = requests.get(url , params=params, headers=headers )
+
     page = BeautifulSoup(response.text, "html.parser")
     page = page.prettify()
     longlist = re.search(r'<ul aria-label="Book search results" class="Books" data-testid="book-list-item" role="list">(.*?)</ul>' , page , re.DOTALL)
+    if longlist == None:
+        url = f"https://www.goodreads.com/search?q={query}"
+        baseurl = f"https://production-sfo.browserless.io/smart-scrape?token={apikey}"
+        headers = {
+            "Content-Type": "application/json"
+        }
+        data = {
+            "url": url,
+            "formats": ["html"]
+        }
+        response = requests.post(baseurl, headers=headers, json=data)
+        response = response.json()
+        page = BeautifulSoup(response["content"], "html.parser")
+        page = page.prettify()
+        longlist = re.search(r'<ul aria-label="Book search results" class="Books" data-testid="book-list-item" role="list">(.*?)</ul>' , page , re.DOTALL)
+
     longlist = longlist.group(0)
     labels = re.findall(r' <a aria-label="[^"]+" class="BookCard__stretchedLink" href="[^"]+" rel="noopener noreferrer" tabindex="-1">' , longlist)
     results = []
@@ -65,7 +83,7 @@ def dataparser():
     elif os.getenv("COOKIES")  != None:
         base64cookie = os.getenv("COOKIES")
         cookie = base64.b64decode(base64cookie).decode("utf-8")
-        with open("COOKIES.txt" , "w") as c:
+        with open("cookies.txt" , "w") as c:
             c.write(cookie)
         cookies = http.cookiejar.MozillaCookieJar("cookies.txt")
         cookies.load(ignore_discard=True,ignore_expires=True)
