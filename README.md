@@ -16,7 +16,16 @@ A proxy server that sits in the middle of the kindle and goodreads and requests 
 you can demo it at http://k.pseudorun.tech by opening it in your kindle browser
   
 ### Dependencies  
-  this project does have some
+
+this project needs these dependencies  
+--> requests  
+--> beautifulsoup4  
+--> flask  
+--> python-dotenv  
+--> random-header-generator  
+run ```pip install -r requirements.txt``` to install them 
+  
+### Installing
   ok now the setup part  
   setting this up is easy  
   first install the browser extension "cookies.txt" and install it   
@@ -32,7 +41,10 @@ you can demo it at http://k.pseudorun.tech by opening it in your kindle browser
   then this also from repo root    
   ```python3 main.py```  
 to run the flask server
-visit that url on your kindle if ur on the same network OR you can host it on hackclub nest  
+visit that url on your kindle if ur on the same network   
+  
+###Hosting
+you can host it on hackclub nest  
 the steps for that are here :  
 1 ssh in to your hackclub nest machine and clone the repo  
 2 cd in to the repo  
@@ -43,7 +55,7 @@ the steps for that are here :
 7 get a cloudflare tunnel with https off if you have an older non jailbroken kindle     
 8 vist the tunnel address from your kindle  
 
-9 if you DO have a newer kindle then just use any normal hosting service that supports flask ,which is basically all of them tho you have to first enocde ur cookies in base64 and make an env var with the name 'COOKIES' and the base64 as value and you will also need to add the "browserlessapikey" var
+9 if you DO have a newer kindle(one on which https still works) then just use any normal hosting service that supports flask ,which is basically all of them tho you have to first enocde ur cookies in base64 and make an env var with the name 'COOKIES' and the base64 as value and you will also need to add the "browserlessapikey" var
   
   
 NOTES :
