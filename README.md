@@ -43,7 +43,7 @@ run ```pip install -r requirements.txt``` to install them
 to run the flask server
 visit that url on your kindle if ur on the same network   
   
-###Hosting
+### Hosting
 you can host it on hackclub nest  
 the steps for that are here :  
 1 ssh in to your hackclub nest machine and clone the repo  
